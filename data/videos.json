@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "titulo": "El impacto de las pantallas en la infancia",
+    "especialista": "Dra. María González · Psicóloga infantil",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "duracion": "12 min"
+  },
+  {
+    "id": "2",
+    "titulo": "Cómo establecer límites saludables con la tecnología",
+    "especialista": "Lic. Carlos Martínez · Neuroeducador",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "duracion": "18 min"
+  },
+  {
+    "id": "3",
+    "titulo": "Juego, vínculo y desarrollo en la era digital",
+    "especialista": "Dra. Ana Rodríguez · Pediatra",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "duracion": "15 min"
+  }
+]

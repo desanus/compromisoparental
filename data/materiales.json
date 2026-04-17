@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "titulo": "Guía para acompañar a niños y adolescentes en su relación con la tecnología",
+    "descripcion": "Herramientas prácticas para establecer acuerdos en el hogar.",
+    "icon": "📖",
+    "bg": "#00b2ca",
+    "url": ""
+  },
+  {
+    "id": "2",
+    "titulo": "Herramientas de control parental",
+    "descripcion": "Guía paso a paso para configurar los principales dispositivos.",
+    "icon": "🛡️",
+    "bg": "#1d4e89",
+    "url": ""
+  },
+  {
+    "id": "3",
+    "titulo": "Ley provincial Emma",
+    "descripcion": "Texto completo de la ley que prohíbe el uso de celulares en escuelas.",
+    "icon": "⚖️",
+    "bg": "#2f2c79",
+    "url": ""
+  },
+  {
+    "id": "4",
+    "titulo": "Modelos de normas de convivencia",
+    "descripcion": "Acuerdos institucionales listos para adaptar en tu escuela o familia.",
+    "icon": "📋",
+    "bg": "#7dcfb6",
+    "url": ""
+  }
+]

@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Compromiso {
+  id        Int      @id @default(autoincrement())
+  nombre    String
+  apellido  String
+  telefono  String?
+  mail      String
+  colegio   String?
+  createdAt DateTime @default(now())
+}
+
+model Video {
+  id           Int    @id @default(autoincrement())
+  titulo       String
+  especialista String
+  youtubeUrl   String
+  duracion     String
+  orden        Int    @default(0)
+}
+
+model Noticia {
+  id          Int    @id @default(autoincrement())
+  titulo      String @db.Text
+  fuente      String
+  fecha       String
+  descripcion String @db.Text
+  tag         String
+  url         String @default("")
+  orden       Int    @default(0)
+}
+
+model Material {
+  id          Int    @id @default(autoincrement())
+  titulo      String @db.Text
+  descripcion String @db.Text
+  icon        String
+  bg          String
+  url         String @default("")
+  orden       Int    @default(0)
+}
+
+model Config {
+  id              Int    @id @default(1)
+  heroTitle       String
+  heroSubtitle    String
+  heroDescription String @db.Text
+  heroBadge       String
+  counterLabel    String
+  counterSuffix   String
+  ctaText         String
+  ctaSubtext      String
+}

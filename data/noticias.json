@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "titulo": "Una nueva iniciativa busca que las familias acompañen activamente el uso de pantallas",
+    "fuente": "Infobae",
+    "fecha": "12 abril 2026",
+    "descripcion": "La iniciativa ciudadana convoca a padres y madres a comprometerse activamente en el acompañamiento tecnológico de sus hijos.",
+    "tag": "Iniciativa",
+    "url": ""
+  },
+  {
+    "id": "2",
+    "titulo": "La Ley Emma y su impacto en las escuelas bonaerenses",
+    "fuente": "La Nación",
+    "fecha": "8 abril 2026",
+    "descripcion": "A un año de su sanción, la ley que prohíbe el uso de celulares en escuelas muestra resultados alentadores en la provincia de Buenos Aires.",
+    "tag": "Legislación",
+    "url": ""
+  },
+  {
+    "id": "3",
+    "titulo": "San Patricio, el colegio que eligió desconectarse para conectar",
+    "fuente": "Clarín",
+    "fecha": "3 abril 2026",
+    "descripcion": "La institución educativa implementó un acuerdo de convivencia sin pantallas que mejoró el clima áulico y el rendimiento académico.",
+    "tag": "Educación",
+    "url": ""
+  },
+  {
+    "id": "4",
+    "titulo": "El compromiso parental como herramienta comunitaria",
+    "fuente": "Télam",
+    "fecha": "28 marzo 2026",
+    "descripcion": "Expertos en educación digital destacan la importancia de que los adultos lideren el cambio en el uso responsable de la tecnología.",
+    "tag": "Comunidad",
+    "url": ""
+  }
+]
