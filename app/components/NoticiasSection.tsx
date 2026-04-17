@@ -23,7 +23,7 @@ export default function NoticiasSection() {
   const [noticias, setNoticias] = useState<Noticia[]>([]);
 
   useEffect(() => {
-    fetch("/api/noticias").then(r => r.json()).then(setNoticias);
+    fetch("/api/noticias").then(r => r.json()).then(d => Array.isArray(d) && setNoticias(d));
   }, []);
 
   if (noticias.length === 0) return null;

@@ -19,7 +19,7 @@ export default function VideosSection() {
   const [videos, setVideos] = useState<Video[]>([]);
 
   useEffect(() => {
-    fetch("/api/videos").then(r => r.json()).then(setVideos);
+    fetch("/api/videos").then(r => r.json()).then(d => Array.isArray(d) && setVideos(d));
   }, []);
 
   if (videos.length === 0) return null;

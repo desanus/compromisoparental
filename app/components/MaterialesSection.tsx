@@ -15,7 +15,7 @@ export default function MaterialesSection() {
   const [materiales, setMateriales] = useState<Material[]>([]);
 
   useEffect(() => {
-    fetch("/api/materiales").then(r => r.json()).then(setMateriales);
+    fetch("/api/materiales").then(r => r.json()).then(d => Array.isArray(d) && setMateriales(d));
   }, []);
 
   if (materiales.length === 0) return null;
