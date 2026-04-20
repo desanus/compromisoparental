@@ -20,7 +20,7 @@ export default function HeroSection() {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    fetch("/api/compromiso").then(r => r.json()).then(d => setCount(d.count)).catch(() => setCount(0));
+    fetch("/api/compromiso").then(r => r.json()).then(d => setCount(typeof d.count === "number" ? d.count : 0)).catch(() => setCount(0));
     fetch("/api/config").then(r => r.json()).then(setConfig);
   }, []);
 
