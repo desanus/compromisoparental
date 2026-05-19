@@ -24,11 +24,43 @@ body {
   font-family: var(--font-inter), Inter, Arial, sans-serif;
 }
 
+button { cursor: pointer; }
+
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.6s ease-out forwards;
+  animation: fadeIn 0.6s ease-out both;
+}
+
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 178, 202, 0.55); }
+  70%  { box-shadow: 0 0 0 24px rgba(0, 178, 202, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 178, 202, 0); }
+}
+
+.counter-pulse {
+  animation: pulse-ring 2.8s ease-out infinite;
+}
+
+@keyframes float-y {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-16px); }
+}
+
+.animate-float {
+  animation: float-y 8s ease-in-out infinite;
+}
+
+@keyframes shimmer-text {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-shimmer {
+  background-size: 200% auto;
+  animation: shimmer-text 3s linear infinite;
 }

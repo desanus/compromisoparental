@@ -1,7 +1,6 @@
 generator client {
-  provider      = "prisma-client-js"
-  engineType    = "binary"
-  binaryTargets = ["native", "debian-openssl-1.1.x"]
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
 }
 
 datasource db {
@@ -59,5 +58,4 @@ model Config {
   counterSuffix   String
   ctaText         String
   ctaSubtext      String
-  noticiasTags    String @default("Iniciativa,Legislación,Educación,Comunidad") @db.Text
 }

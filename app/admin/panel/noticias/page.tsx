@@ -15,21 +15,46 @@ interface Noticia {
 
 const empty: Noticia = { titulo: "", fuente: "", fecha: "", descripcion: "", tag: "", url: "", orden: 0 };
 
-const TAG_COLORS: Record<string, { bg: string; text: string }> = {
-  Iniciativa:  { bg: "#00b2ca", text: "#000020" },
-  Legislación: { bg: "#2f2c79", text: "#ffffff" },
-  Educación:   { bg: "#7dcfb6", text: "#000020" },
-  Comunidad:   { bg: "#f79256", text: "#000020" },
+const TAG_PALETTE = [
+  { bg: "#00b2ca", text: "#000020" },
+  { bg: "#2f2c79", text: "#ffffff" },
+  { bg: "#7dcfb6", text: "#000020" },
+  { bg: "#f79256", text: "#000020" },
+  { bg: "#fbd1a2", text: "#000020" },
+  { bg: "#171a4a", text: "#ffffff" },
+];
+
+const tagColorCache: Record<string, { bg: string; text: string }> = {
+  Iniciativa:  TAG_PALETTE[0],
+  Legislación: TAG_PALETTE[1],
+  Educación:   TAG_PALETTE[2],
+  Comunidad:   TAG_PALETTE[3],
 };
+
+function getTagColor(tag: string) {
+  if (!tag) return { bg: "#e8c39e", text: "#000020" };
+  if (tagColorCache[tag]) return tagColorCache[tag];
+  const idx = Object.keys(tagColorCache).length % TAG_PALETTE.length;
+  tagColorCache[tag] = TAG_PALETTE[idx];
+  return tagColorCache[tag];
+}
 
 export default function NoticiasPage() {
   const [noticias, setNoticias] = useState<Noticia[]>([]);
+  const [configTags, setConfigTags] = useState<string[]>(["Iniciativa", "Legislación", "Educación", "Comunidad"]);
   const [modal, setModal] = useState(false);
   const [editing, setEditing] = useState<Noticia>(empty);
   const [saving, setSaving] = useState(false);
 
   const load = () => fetch("/api/admin/noticias").then(r => r.json()).then(setNoticias);
-  useEffect(() => { load(); }, []);
+  useEffect(() => {
+    load();
+    fetch("/api/admin/config")
+      .then(r => r.json())
+      .then(d => {
+        if (d?.noticiasTags) setConfigTags(d.noticiasTags.split(",").map((t: string) => t.trim()).filter(Boolean));
+      });
+  }, []);
 
   const openNew = () => { setEditing(empty); setModal(true); };
   const openEdit = (n: Noticia) => { setEditing(n); setModal(true); };
@@ -87,7 +112,7 @@ export default function NoticiasPage() {
 
       <div className="grid gap-4">
         {noticias.map(n => {
-          const tagStyle = TAG_COLORS[n.tag] || { bg: "#e8c39e", text: "#000020" };
+          const tagStyle = getTagColor(n.tag);
           return (
             <div key={n.id} className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex gap-4">
               <div className="flex-1 min-w-0">
@@ -120,17 +145,20 @@ export default function NoticiasPage() {
               {field("descripcion", "Descripción", "Resumen de la noticia…", true)}
               <div>
                 <label className="block text-xs font-semibold mb-1.5 uppercase tracking-wide" style={{ color: "#171a4a" }}>Tag</label>
-                <select
+                <datalist id="tags-list">
+                  {Array.from(new Set([
+                    ...configTags,
+                    ...noticias.map(n => n.tag).filter(Boolean),
+                  ])).map(t => <option key={t} value={t} />)}
+                </datalist>
+                <input
+                  list="tags-list"
                   value={editing.tag}
                   onChange={e => setEditing(prev => ({ ...prev, tag: e.target.value }))}
-                  className="w-full border rounded-xl px-3 py-2.5 text-sm outline-none"
+                  placeholder="Ej: Salud, Tecnología…"
+                  className="w-full border rounded-xl px-3 py-2.5 text-sm outline-none focus:ring-2"
                   style={{ borderColor: "#e8c39e" }}
-                >
-                  <option value="">Seleccionar…</option>
-                  {["Iniciativa", "Legislación", "Educación", "Comunidad"].map(t => (
-                    <option key={t} value={t}>{t}</option>
-                  ))}
-                </select>
+                />
               </div>
               {field("url", "URL (opcional)", "https://…")}
               <div>

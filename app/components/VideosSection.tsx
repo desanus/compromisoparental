@@ -27,13 +27,14 @@ export default function VideosSection() {
   return (
     <section id="videos" className="py-20" style={{ backgroundColor: "#f5e1ce" }}>
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-4 uppercase tracking-wide" style={{ backgroundColor: "#7dcfb6", color: "#000020" }}>
+        <div className="text-center mb-14">
+          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-5 uppercase tracking-widest" style={{ backgroundColor: "#7dcfb6", color: "#000020" }}>
             Especialistas
           </span>
-          <h2 className="text-3xl md:text-4xl font-black mb-4" style={{ color: "#000020" }}>
+          <h2 className="text-4xl md:text-5xl font-black mb-4 leading-tight" style={{ color: "#000020" }}>
             Lo que dicen los expertos
           </h2>
+          <div className="w-14 h-1.5 rounded-full mx-auto mb-5" style={{ backgroundColor: "#f79256" }} />
           <p className="max-w-xl mx-auto font-medium" style={{ color: "#171a4a" }}>
             Profesionales de la salud y la educación explican por qué acompañar el uso de pantallas es fundamental.
           </p>
@@ -44,7 +45,7 @@ export default function VideosSection() {
             const ytId = getYoutubeId(v.youtubeUrl);
             const thumbnail = ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg` : "";
             return (
-              <div key={v.id} className="rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow group" style={{ backgroundColor: "#ffffff" }}>
+              <div key={v.id} className="rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-200 group" style={{ backgroundColor: "#ffffff" }}>
                 <div className="relative aspect-video overflow-hidden" style={{ backgroundColor: "#e8c39e" }}>
                   {thumbnail && (
                     <img src={thumbnail} alt={v.titulo} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
