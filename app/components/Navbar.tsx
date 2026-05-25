@@ -27,13 +27,18 @@ export default function Navbar() {
         : { backgroundColor: "transparent" }
       }
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a
-          href="#"
-          className="font-black text-lg tracking-tight transition-colors"
-          style={{ color: scrolled ? "#000020" : "#ffffff" }}
-        >
-          Compromiso Parental
+      <div className="max-w-6xl mx-auto px-4 md:px-6 flex items-center justify-between" style={{ height: "64px" }}>
+        <a href="#" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.png"
+            alt="Compromiso Parental"
+            className="h-9 md:h-12 w-auto"
+            style={{
+              filter: scrolled ? "brightness(0)" : "none",
+              transition: "filter 0.3s ease",
+            }}
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -42,7 +47,7 @@ export default function Navbar() {
               key={l.href}
               href={l.href}
               className="text-sm font-semibold transition-colors hover:opacity-70"
-              style={{ color: scrolled ? "#171a4a" : "#fbd1a2" }}
+              style={{ color: scrolled ? "#171a4a" : "#f5e1ce" }}
             >
               {l.label}
             </a>
@@ -54,7 +59,7 @@ export default function Navbar() {
               document.querySelector<HTMLButtonElement>("button[data-hero-btn]")?.click();
             }}
             className="text-sm font-bold px-5 py-2 rounded-xl transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "#f79256", color: "#000020" }}
+            style={{ backgroundColor: "#e8c39e", color: "#000020" }}
           >
             Me sumo
           </a>
@@ -89,7 +94,7 @@ export default function Navbar() {
           <a
             href="#"
             className="font-bold text-center px-5 py-2.5 rounded-xl"
-            style={{ backgroundColor: "#f79256", color: "#000020" }}
+            style={{ backgroundColor: "#e8c39e", color: "#000020" }}
           >
             Me sumo
           </a>

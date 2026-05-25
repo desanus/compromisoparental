@@ -28,13 +28,13 @@ export default function VideosSection() {
     <section id="videos" className="py-20" style={{ backgroundColor: "#f5e1ce" }}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-14">
-          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-5 uppercase tracking-widest" style={{ backgroundColor: "#7dcfb6", color: "#000020" }}>
+          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-5 uppercase tracking-widest" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
             Especialistas
           </span>
           <h2 className="text-4xl md:text-5xl font-black mb-4 leading-tight" style={{ color: "#000020" }}>
             Lo que dicen los expertos
           </h2>
-          <div className="w-14 h-1.5 rounded-full mx-auto mb-5" style={{ backgroundColor: "#f79256" }} />
+          <div className="w-14 h-1.5 rounded-full mx-auto mb-5" style={{ backgroundColor: "#2f2c79" }} />
           <p className="max-w-xl mx-auto font-medium" style={{ color: "#171a4a" }}>
             Profesionales de la salud y la educación explican por qué acompañar el uso de pantallas es fundamental.
           </p>
@@ -51,13 +51,13 @@ export default function VideosSection() {
                     <img src={thumbnail} alt={v.titulo} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   )}
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: "rgba(0,0,32,0.25)" }}>
-                    <div className="w-14 h-14 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: "#f79256" }}>
+                    <div className="w-14 h-14 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: "#2f2c79" }}>
                       <svg className="w-6 h-6 ml-1" fill="#ffffff" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </div>
                   </div>
-                  <span className="absolute bottom-2 right-2 text-xs px-2 py-0.5 rounded font-semibold" style={{ backgroundColor: "#000020", color: "#fbd1a2" }}>
+                  <span className="absolute bottom-2 right-2 text-xs px-2 py-0.5 rounded font-semibold" style={{ backgroundColor: "#000020", color: "#f5e1ce" }}>
                     {v.duracion}
                   </span>
                 </div>

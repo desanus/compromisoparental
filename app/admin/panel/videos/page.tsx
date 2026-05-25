@@ -52,7 +52,7 @@ export default function VideosPage() {
           <h1 className="text-3xl font-black" style={{ color: "#000020" }}>Videos</h1>
           <p className="font-medium mt-1" style={{ color: "#2f2c79" }}>Videos de especialistas en la home</p>
         </div>
-        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
           + Agregar video
         </button>
       </div>
@@ -71,7 +71,7 @@ export default function VideosPage() {
                 <p className="text-xs" style={{ color: "#e8c39e" }}>{v.duracion} · Orden: {v.orden}</p>
               </div>
               <div className="flex gap-2 flex-shrink-0">
-                <button onClick={() => openEdit(v)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#fbd1a2", color: "#000020" }}>Editar</button>
+                <button onClick={() => openEdit(v)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#f5e1ce", color: "#000020" }}>Editar</button>
                 <button onClick={() => handleDelete(v.id!)} className="font-bold text-xs px-3 py-1.5 rounded-lg text-red-500 border border-red-100">Eliminar</button>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function VideosPage() {
             </div>
             <div className="flex gap-3 mt-6">
               <button onClick={() => setModal(false)} className="flex-1 font-bold py-2.5 rounded-xl border" style={{ borderColor: "#e8c39e", color: "#171a4a" }}>Cancelar</button>
-              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
                 {saving ? "Guardando…" : "Guardar"}
               </button>
             </div>

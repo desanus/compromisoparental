@@ -84,7 +84,7 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                     <input
                       name="nombre" required value={form.nombre} onChange={handleChange}
                       className={inputClass}
-                      style={{ ...inputStyle, "--tw-ring-color": "#00b2ca" } as React.CSSProperties}
+                      style={{ ...inputStyle, "--tw-ring-color": "#2f2c79" } as React.CSSProperties}
                       placeholder="Juan"
                     />
                   </div>
@@ -134,7 +134,7 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                 <button
                   type="submit" disabled={loading}
                   className="w-full font-black text-lg py-3.5 rounded-xl transition-all active:scale-95 disabled:opacity-60 mt-2"
-                  style={{ backgroundColor: "#f79256", color: "#000020" }}
+                  style={{ backgroundColor: "#e8c39e", color: "#000020" }}
                 >
                   {loading ? "Enviando…" : "Confirmar mi compromiso"}
                 </button>
@@ -159,7 +159,7 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
               <button
                 onClick={onClose}
                 className="font-bold py-2.5 px-10 rounded-xl hover:opacity-90 transition-opacity"
-                style={{ backgroundColor: "#1d4e89", color: "#ffffff" }}
+                style={{ backgroundColor: "#2f2c79", color: "#ffffff" }}
               >
                 Cerrar
               </button>

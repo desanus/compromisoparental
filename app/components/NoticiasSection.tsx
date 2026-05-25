@@ -13,12 +13,11 @@ interface Noticia {
 }
 
 const TAG_PALETTE: React.CSSProperties[] = [
-  { backgroundColor: "#00b2ca", color: "#000020" },
   { backgroundColor: "#2f2c79", color: "#ffffff" },
-  { backgroundColor: "#7dcfb6", color: "#000020" },
-  { backgroundColor: "#f79256", color: "#000020" },
-  { backgroundColor: "#fbd1a2", color: "#000020" },
   { backgroundColor: "#171a4a", color: "#ffffff" },
+  { backgroundColor: "#e8c39e", color: "#000020" },
+  { backgroundColor: "#f5e1ce", color: "#000020" },
+  { backgroundColor: "#000020", color: "#ffffff" },
 ];
 
 const tagCache: Record<string, React.CSSProperties> = {
@@ -26,6 +25,7 @@ const tagCache: Record<string, React.CSSProperties> = {
   Legislación: TAG_PALETTE[1],
   Educación:   TAG_PALETTE[2],
   Comunidad:   TAG_PALETTE[3],
+  default:     TAG_PALETTE[4],
 };
 
 function getTagStyle(tag: string): React.CSSProperties {
@@ -57,13 +57,13 @@ export default function NoticiasSection() {
     <section id="noticias" className="py-20" style={{ backgroundColor: "#ffffff" }}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-14">
-          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-5 uppercase tracking-widest" style={{ backgroundColor: "#fbd1a2", color: "#000020" }}>
+          <span className="inline-block text-sm font-bold px-4 py-1 rounded-full mb-5 uppercase tracking-widest" style={{ backgroundColor: "#f5e1ce", color: "#000020" }}>
             Medios
           </span>
           <h2 className="text-4xl md:text-5xl font-black mb-4 leading-tight" style={{ color: "#000020" }}>
             En las noticias
           </h2>
-          <div className="w-14 h-1.5 rounded-full mx-auto mb-5" style={{ backgroundColor: "#00b2ca" }} />
+          <div className="w-14 h-1.5 rounded-full mx-auto mb-5" style={{ backgroundColor: "#2f2c79" }} />
           <p className="max-w-xl mx-auto font-medium" style={{ color: "#171a4a" }}>
             Lo que dicen los medios sobre la iniciativa y el movimiento por una infancia más saludable.
           </p>
@@ -90,7 +90,7 @@ export default function NoticiasSection() {
               <h3 className="font-black text-lg leading-snug mb-2" style={{ color: "#000020" }}>{n.titulo}</h3>
               <p className="text-sm leading-relaxed flex-1 font-medium" style={{ color: "#171a4a" }}>{n.descripcion}</p>
               {n.url ? (
-                <a href={n.url} target="_blank" rel="noopener noreferrer" className="mt-4 text-sm font-bold text-left transition-opacity hover:opacity-70" style={{ color: "#00b2ca" }}>
+                <a href={n.url} target="_blank" rel="noopener noreferrer" className="mt-4 text-sm font-bold text-left transition-opacity hover:opacity-70" style={{ color: "#2f2c79" }}>
                   Leer nota →
                 </a>
               ) : (
@@ -105,7 +105,7 @@ export default function NoticiasSection() {
             <button
               onClick={() => setExpanded(prev => !prev)}
               className="font-bold px-10 py-3 rounded-2xl border-2 transition-all duration-200 hover:shadow-md active:scale-95"
-              style={{ borderColor: "#00b2ca", color: "#00b2ca", backgroundColor: "transparent" }}
+              style={{ borderColor: "#2f2c79", color: "#2f2c79", backgroundColor: "transparent" }}
             >
               {expanded ? "Ver menos ↑" : "Ver más ↓"}
             </button>

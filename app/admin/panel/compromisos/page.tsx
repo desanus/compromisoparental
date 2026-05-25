@@ -48,7 +48,7 @@ export default function CompromisosPage() {
         <a
           href="/api/admin/compromisos?format=csv"
           className="flex items-center gap-2 font-bold text-sm px-5 py-2.5 rounded-xl transition-opacity hover:opacity-80"
-          style={{ backgroundColor: "#7dcfb6", color: "#000020" }}
+          style={{ backgroundColor: "#2f2c79", color: "#ffffff" }}
         >
           ⬇️ Exportar CSV
         </a>

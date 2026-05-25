@@ -83,7 +83,7 @@ export default function HeroSection() {
           >
             <div
               className="w-[550px] h-[550px] rounded-full animate-float"
-              style={{ background: "radial-gradient(circle, rgba(0,178,202,0.28), transparent 70%)" }}
+              style={{ background: "radial-gradient(circle, rgba(47,44,121,0.55), transparent 70%)" }}
             />
           </div>
           <div
@@ -92,7 +92,7 @@ export default function HeroSection() {
           >
             <div
               className="w-[440px] h-[440px] rounded-full"
-              style={{ background: "radial-gradient(circle, rgba(247,146,86,0.22), transparent 70%)" }}
+              style={{ background: "radial-gradient(circle, rgba(232,195,158,0.20), transparent 70%)" }}
             />
           </div>
           <div
@@ -106,39 +106,51 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-16 w-full">
-          <div className="flex flex-col md:flex-row md:items-center md:gap-16 gap-10">
+        <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-6 py-20 md:py-20 w-full">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-16 gap-8">
 
-            {/* Left: text */}
+            {/* Left: logo + description */}
             <div className="flex-1 text-white">
+              <div className="w-full px-4 md:px-0" style={{ maxWidth: "580px" }}>
 
-              {/* Title */}
-              <h1
-                className="animate-fade-in text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-5 tracking-tight"
-                style={{ animationDelay: "120ms" }}
-              >
-                {cfg.heroTitle}
-                <span className="block mt-2" style={{ color: "#f79256" }}>
-                  {cfg.heroSubtitle}
-                </span>
-              </h1>
+                {/* Logo image */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/logo.png"
+                  alt="Compromiso Parental – Infancia sin pantallas"
+                  className="animate-fade-in"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    marginBottom: "0px",
+                    animationDelay: "60ms",
+                  }}
+                />
 
-              {/* Description */}
-              <p
-                className="animate-fade-in text-lg md:text-xl leading-relaxed max-w-lg"
-                style={{ color: "#fbd1a2", animationDelay: "240ms" }}
-              >
-                {cfg.heroDescription}
-              </p>
+                {/* Divider */}
+                <div
+                  className="animate-fade-in h-px w-16 rounded-full opacity-30"
+                  style={{ backgroundColor: "#e8c39e", animationDelay: "120ms", marginBottom: "20px" }}
+                />
+
+                {/* Description */}
+                <p
+                  className="animate-fade-in text-lg md:text-xl leading-relaxed font-medium"
+                  style={{ color: "#f5e1ce", animationDelay: "180ms" }}
+                >
+                  {cfg.heroDescription}
+                </p>
+              </div>
             </div>
 
             {/* Right: counter + CTA */}
             <div
-              className="animate-fade-in flex-shrink-0 flex flex-col items-center md:items-end gap-5"
+              className="animate-fade-in flex-shrink-0 flex flex-col items-center md:items-end gap-5 w-full md:w-auto"
               style={{ animationDelay: "240ms" }}
             >
               <div
-                className="counter-pulse rounded-3xl px-12 py-10 text-center"
+                className="counter-pulse rounded-3xl px-8 py-8 md:px-12 md:py-10 text-center w-full"
                 style={{
                   backgroundColor: "rgba(255,255,255,0.07)",
                   border: "1px solid rgba(255,255,255,0.15)",
@@ -150,14 +162,14 @@ export default function HeroSection() {
                   <span
                     className="w-2 h-2 rounded-full flex-shrink-0"
                     style={{
-                      backgroundColor: "#7dcfb6",
-                      boxShadow: "0 0 6px rgba(125,207,182,0.8)",
+                      backgroundColor: "#e8c39e",
+                      boxShadow: "0 0 6px rgba(232,195,158,0.8)",
                       animation: "pulse 1.8s ease-in-out infinite",
                     }}
                   />
                   <p
                     className="text-xs font-bold tracking-widest uppercase"
-                    style={{ color: "#7dcfb6" }}
+                    style={{ color: "#e8c39e" }}
                   >
                     {cfg.counterLabel}
                   </p>
@@ -171,11 +183,11 @@ export default function HeroSection() {
                 </p>
 
                 <div className="mt-5 flex items-center justify-center gap-3">
-                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#fbd1a2" }} />
-                  <p className="text-sm font-semibold" style={{ color: "#fbd1a2" }}>
+                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
+                  <p className="text-sm font-semibold" style={{ color: "#f5e1ce" }}>
                     {cfg.counterSuffix}
                   </p>
-                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#fbd1a2" }} />
+                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
                 </div>
               </div>
 
@@ -183,11 +195,11 @@ export default function HeroSection() {
               <button
                 data-hero-btn
                 onClick={() => setShowModal(true)}
-                className="group font-black text-xl px-14 py-4 rounded-2xl shadow-xl transition-all duration-200 active:scale-95 hover:opacity-90 hover:shadow-2xl w-full"
+                className="group font-black text-lg md:text-xl px-8 md:px-14 py-4 rounded-2xl shadow-xl transition-all duration-200 active:scale-95 hover:opacity-90 hover:shadow-2xl w-full"
                 style={{
-                  backgroundColor: "#f79256",
+                  backgroundColor: "#e8c39e",
                   color: "#000020",
-                  boxShadow: "0 8px 32px rgba(247,146,86,0.35)",
+                  boxShadow: "0 8px 32px rgba(232,195,158,0.35)",
                 }}
               >
                 {cfg.ctaText}

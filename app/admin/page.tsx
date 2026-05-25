@@ -66,7 +66,7 @@ export default function AdminLogin() {
             type="submit"
             disabled={loading}
             className="w-full font-black text-lg py-3 rounded-xl transition-all active:scale-95 disabled:opacity-60"
-            style={{ backgroundColor: "#f79256", color: "#000020" }}
+            style={{ backgroundColor: "#2f2c79", color: "#ffffff" }}
           >
             {loading ? "Ingresando…" : "Ingresar"}
           </button>

@@ -16,12 +16,11 @@ interface Noticia {
 const empty: Noticia = { titulo: "", fuente: "", fecha: "", descripcion: "", tag: "", url: "", orden: 0 };
 
 const TAG_PALETTE = [
-  { bg: "#00b2ca", text: "#000020" },
   { bg: "#2f2c79", text: "#ffffff" },
-  { bg: "#7dcfb6", text: "#000020" },
-  { bg: "#f79256", text: "#000020" },
-  { bg: "#fbd1a2", text: "#000020" },
   { bg: "#171a4a", text: "#ffffff" },
+  { bg: "#e8c39e", text: "#000020" },
+  { bg: "#f5e1ce", text: "#000020" },
+  { bg: "#000020", text: "#ffffff" },
 ];
 
 const tagColorCache: Record<string, { bg: string; text: string }> = {
@@ -105,7 +104,7 @@ export default function NoticiasPage() {
           <h1 className="text-3xl font-black" style={{ color: "#000020" }}>Noticias</h1>
           <p className="font-medium mt-1" style={{ color: "#2f2c79" }}>Artículos que aparecen en la sección de medios</p>
         </div>
-        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
           + Agregar noticia
         </button>
       </div>
@@ -124,7 +123,7 @@ export default function NoticiasPage() {
                 <p className="text-sm mt-1 line-clamp-2" style={{ color: "#171a4a" }}>{n.descripcion}</p>
               </div>
               <div className="flex gap-2 flex-shrink-0 items-start">
-                <button onClick={() => openEdit(n)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#fbd1a2", color: "#000020" }}>Editar</button>
+                <button onClick={() => openEdit(n)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#f5e1ce", color: "#000020" }}>Editar</button>
                 <button onClick={() => handleDelete(n.id!)} className="font-bold text-xs px-3 py-1.5 rounded-lg text-red-500 border border-red-100">Eliminar</button>
               </div>
             </div>
@@ -169,7 +168,7 @@ export default function NoticiasPage() {
             </div>
             <div className="flex gap-3 mt-6">
               <button onClick={() => setModal(false)} className="flex-1 font-bold py-2.5 rounded-xl border" style={{ borderColor: "#e8c39e", color: "#171a4a" }}>Cancelar</button>
-              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
                 {saving ? "Guardando…" : "Guardar"}
               </button>
             </div>

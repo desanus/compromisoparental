@@ -20,9 +20,9 @@ export default function FloatingCTA() {
         aria-label="Me sumo al compromiso"
         className="fixed bottom-6 right-6 z-50 font-black text-base px-6 py-3.5 rounded-2xl hover:opacity-90 active:scale-95"
         style={{
-          backgroundColor: "#f79256",
+          backgroundColor: "#e8c39e",
           color: "#000020",
-          boxShadow: "0 8px 32px rgba(247,146,86,0.5)",
+          boxShadow: "0 8px 32px rgba(232,195,158,0.5)",
           transition: "opacity 0.3s ease, transform 0.3s ease",
           transform: visible ? "translateY(0) scale(1)" : "translateY(20px) scale(0.95)",
           opacity: visible ? 1 : 0,

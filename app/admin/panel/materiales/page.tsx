@@ -12,16 +12,15 @@ interface Material {
   orden: number;
 }
 
-const empty: Material = { titulo: "", descripcion: "", icon: "📄", bg: "#00b2ca", url: "", orden: 0 };
+const empty: Material = { titulo: "", descripcion: "", icon: "📄", bg: "#2f2c79", url: "", orden: 0 };
 
 const ICONS = ["📖", "🛡️", "⚖️", "📋", "📄", "🎓", "💡", "🏫", "📱", "🔒"];
 const BG_COLORS = [
-  { label: "Cyan", value: "#00b2ca" },
-  { label: "Navy", value: "#1d4e89" },
-  { label: "Purple", value: "#2f2c79" },
-  { label: "Mint", value: "#7dcfb6" },
-  { label: "Orange", value: "#f79256" },
-  { label: "Peach", value: "#fbd1a2" },
+  { label: "Azul institucional", value: "#2f2c79" },
+  { label: "Azul oscuro", value: "#171a4a" },
+  { label: "Negro", value: "#000020" },
+  { label: "Dorado cálido", value: "#e8c39e" },
+  { label: "Crema", value: "#f5e1ce" },
 ];
 
 export default function MaterialesPage() {
@@ -58,7 +57,7 @@ export default function MaterialesPage() {
           <h1 className="text-3xl font-black" style={{ color: "#000020" }}>Materiales</h1>
           <p className="font-medium mt-1" style={{ color: "#2f2c79" }}>Recursos descargables del sitio</p>
         </div>
-        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+        <button onClick={openNew} className="font-bold text-sm px-5 py-2.5 rounded-xl" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
           + Agregar material
         </button>
       </div>
@@ -72,10 +71,10 @@ export default function MaterialesPage() {
             <div className="flex-1 min-w-0">
               <p className="font-bold text-sm leading-snug" style={{ color: "#000020" }}>{m.titulo}</p>
               <p className="text-xs mt-0.5 font-medium" style={{ color: "#2f2c79" }}>{m.descripcion}</p>
-              {m.url && <p className="text-xs mt-0.5 truncate" style={{ color: "#00b2ca" }}>{m.url}</p>}
+              {m.url && <p className="text-xs mt-0.5 truncate" style={{ color: "#2f2c79" }}>{m.url}</p>}
             </div>
             <div className="flex gap-2 flex-shrink-0">
-              <button onClick={() => openEdit(m)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#fbd1a2", color: "#000020" }}>Editar</button>
+              <button onClick={() => openEdit(m)} className="font-bold text-xs px-3 py-1.5 rounded-lg" style={{ backgroundColor: "#f5e1ce", color: "#000020" }}>Editar</button>
               <button onClick={() => handleDelete(m.id!)} className="font-bold text-xs px-3 py-1.5 rounded-lg text-red-500 border border-red-100">Eliminar</button>
             </div>
           </div>
@@ -103,7 +102,7 @@ export default function MaterialesPage() {
                   {ICONS.map(ic => (
                     <button key={ic} onClick={() => setEditing(p => ({ ...p, icon: ic }))}
                       className="w-10 h-10 rounded-lg text-xl transition-all"
-                      style={{ backgroundColor: editing.icon === ic ? "#f79256" : "#f5e1ce" }}>
+                      style={{ backgroundColor: editing.icon === ic ? "#e8c39e" : "#f5e1ce" }}>
                       {ic}
                     </button>
                   ))}
@@ -133,7 +132,7 @@ export default function MaterialesPage() {
             </div>
             <div className="flex gap-3 mt-6">
               <button onClick={() => setModal(false)} className="flex-1 font-bold py-2.5 rounded-xl border" style={{ borderColor: "#e8c39e", color: "#171a4a" }}>Cancelar</button>
-              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#f79256", color: "#000020" }}>
+              <button onClick={handleSave} disabled={saving} className="flex-1 font-bold py-2.5 rounded-xl disabled:opacity-60" style={{ backgroundColor: "#e8c39e", color: "#000020" }}>
                 {saving ? "Guardando…" : "Guardar"}
               </button>
             </div>

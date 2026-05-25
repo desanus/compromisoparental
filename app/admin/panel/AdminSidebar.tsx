@@ -23,9 +23,9 @@ export default function AdminSidebar() {
 
   return (
     <aside className="w-60 flex flex-col shadow-lg" style={{ backgroundColor: "#000020", minHeight: "100vh" }}>
-      <div className="px-6 py-6 border-b" style={{ borderColor: "rgba(125,207,182,0.15)" }}>
-        <p className="font-black text-sm" style={{ color: "#f79256" }}>Compromiso Parental</p>
-        <p className="text-xs font-medium mt-0.5" style={{ color: "#7dcfb6" }}>Panel de administración</p>
+      <div className="px-6 py-6 border-b" style={{ borderColor: "rgba(232,195,158,0.15)" }}>
+        <p className="font-black text-sm" style={{ color: "#e8c39e" }}>Compromiso Parental</p>
+        <p className="text-xs font-medium mt-0.5" style={{ color: "#f5e1ce" }}>Panel de administración</p>
       </div>
 
       <nav className="flex-1 py-4 px-3 space-y-1">
@@ -37,8 +37,8 @@ export default function AdminSidebar() {
               href={item.href}
               className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition-all"
               style={isActive
-                ? { backgroundColor: "#f79256", color: "#000020" }
-                : { color: "#fbd1a2" }
+                ? { backgroundColor: "#2f2c79", color: "#ffffff" }
+                : { color: "#f5e1ce" }
               }
             >
               <span>{item.icon}</span>
@@ -48,7 +48,7 @@ export default function AdminSidebar() {
         })}
       </nav>
 
-      <div className="px-3 py-4 border-t" style={{ borderColor: "rgba(125,207,182,0.15)" }}>
+      <div className="px-3 py-4 border-t" style={{ borderColor: "rgba(232,195,158,0.15)" }}>
         <button
           onClick={handleLogout}
           className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition-all hover:opacity-80"
@@ -61,7 +61,7 @@ export default function AdminSidebar() {
           href="/"
           target="_blank"
           className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition-all hover:opacity-80 mt-1"
-          style={{ color: "#7dcfb6" }}
+          style={{ color: "#e8c39e" }}
         >
           <span>🌐</span>
           Ver sitio

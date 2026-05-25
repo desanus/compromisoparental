@@ -88,7 +88,7 @@ export default function ConfigPage() {
 
         <div className="flex flex-wrap gap-2 mb-4 min-h-[36px]">
           {tags.map(tag => (
-            <span key={tag} className="flex items-center gap-1.5 text-sm font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#fbd1a2", color: "#000020" }}>
+            <span key={tag} className="flex items-center gap-1.5 text-sm font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#f5e1ce", color: "#000020" }}>
               {tag}
               <button
                 onClick={() => removeTag(tag)}
@@ -118,7 +118,7 @@ export default function ConfigPage() {
             onClick={addTag}
             disabled={!newTag.trim()}
             className="font-bold text-sm px-4 py-2 rounded-xl disabled:opacity-40"
-            style={{ backgroundColor: "#f79256", color: "#000020" }}
+            style={{ backgroundColor: "#e8c39e", color: "#000020" }}
           >
             Agregar
           </button>
@@ -130,11 +130,11 @@ export default function ConfigPage() {
           onClick={handleSave}
           disabled={saving}
           className="font-black text-lg px-8 py-3 rounded-xl transition-all active:scale-95 disabled:opacity-60"
-          style={{ backgroundColor: "#f79256", color: "#000020" }}
+          style={{ backgroundColor: "#e8c39e", color: "#000020" }}
         >
           {saving ? "Guardando…" : "Guardar cambios"}
         </button>
-        {saved && <span className="font-bold text-sm" style={{ color: "#7dcfb6" }}>✓ Cambios guardados</span>}
+        {saved && <span className="font-bold text-sm" style={{ color: "#2f2c79" }}>✓ Cambios guardados</span>}
       </div>
     </div>
   );

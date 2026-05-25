@@ -24,10 +24,10 @@ export default function Dashboard() {
   }, []);
 
   const cards = [
-    { label: "Compromisos firmados", value: stats?.compromisos, icon: "🤝", color: "#f79256", href: "/admin/panel/compromisos" },
-    { label: "Videos de especialistas", value: stats?.videos, icon: "🎥", color: "#00b2ca", href: "/admin/panel/videos" },
-    { label: "Noticias publicadas", value: stats?.noticias, icon: "📰", color: "#7dcfb6", href: "/admin/panel/noticias" },
-    { label: "Materiales disponibles", value: stats?.materiales, icon: "📁", color: "#fbd1a2", href: "/admin/panel/materiales" },
+    { label: "Compromisos firmados", value: stats?.compromisos, icon: "🤝", color: "#2f2c79", href: "/admin/panel/compromisos" },
+    { label: "Videos de especialistas", value: stats?.videos, icon: "🎥", color: "#171a4a", href: "/admin/panel/videos" },
+    { label: "Noticias publicadas", value: stats?.noticias, icon: "📰", color: "#e8c39e", href: "/admin/panel/noticias" },
+    { label: "Materiales disponibles", value: stats?.materiales, icon: "📁", color: "#f5e1ce", href: "/admin/panel/materiales" },
   ];
 
   return (
@@ -64,7 +64,7 @@ export default function Dashboard() {
               href={item.href}
               target={item.external ? "_blank" : undefined}
               className="flex items-center gap-3 p-4 rounded-xl border font-semibold text-sm transition-all hover:shadow-sm"
-              style={{ borderColor: "#fbd1a2", color: "#171a4a" }}
+              style={{ borderColor: "#e8c39e", color: "#171a4a" }}
             >
               <span>{item.icon}</span>
               {item.label}

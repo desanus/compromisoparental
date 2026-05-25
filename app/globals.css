@@ -5,12 +5,6 @@
   --foreground: #000020;
 
   /* Brand palette */
-  --orange:     #f79256;
-  --peach:      #fbd1a2;
-  --mint:       #7dcfb6;
-  --cyan:       #00b2ca;
-  --navy:       #1d4e89;
-
   --dark-1:     #000020;
   --dark-2:     #171a4a;
   --dark-3:     #2f2c79;
@@ -37,9 +31,9 @@ button { cursor: pointer; }
 }
 
 @keyframes pulse-ring {
-  0%   { box-shadow: 0 0 0 0 rgba(0, 178, 202, 0.55); }
-  70%  { box-shadow: 0 0 0 24px rgba(0, 178, 202, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(0, 178, 202, 0); }
+  0%   { box-shadow: 0 0 0 0 rgba(232, 195, 158, 0.55); }
+  70%  { box-shadow: 0 0 0 24px rgba(232, 195, 158, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(232, 195, 158, 0); }
 }
 
 .counter-pulse {
