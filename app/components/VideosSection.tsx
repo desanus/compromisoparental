@@ -45,7 +45,14 @@ export default function VideosSection() {
             const ytId = getYoutubeId(v.youtubeUrl);
             const thumbnail = ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg` : "";
             return (
-              <div key={v.id} className="rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-200 group" style={{ backgroundColor: "#ffffff" }}>
+              <a
+                key={v.id}
+                href={v.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-200 group block"
+                style={{ backgroundColor: "#ffffff" }}
+              >
                 <div className="relative aspect-video overflow-hidden" style={{ backgroundColor: "#e8c39e" }}>
                   {thumbnail && (
                     <img src={thumbnail} alt={v.titulo} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
@@ -65,7 +72,7 @@ export default function VideosSection() {
                   <h3 className="font-bold leading-snug mb-1" style={{ color: "#000020" }}>{v.titulo}</h3>
                   <p className="text-sm font-medium" style={{ color: "#2f2c79" }}>{v.especialista}</p>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>
