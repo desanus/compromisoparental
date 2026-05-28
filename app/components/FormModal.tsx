@@ -8,7 +8,7 @@ interface FormModalProps {
 }
 
 export default function FormModal({ onClose, onSuccess }: FormModalProps) {
-  const [form, setForm] = useState({ nombre: "", apellido: "", telefono: "", mail: "", colegio: "" });
+  const [form, setForm] = useState({ nombre: "", apellido: "", telefono: "", mail: "", localidad: "", colegio: "" });
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState("");
@@ -18,7 +18,7 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
     return () => { document.body.style.overflow = ""; };
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
@@ -69,11 +69,20 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
               </div>
 
               <div className="rounded-xl p-4 mb-6 text-sm" style={{ backgroundColor: "#f5e1ce" }}>
-                <p className="font-bold mb-1" style={{ color: "#000020" }}>Al sumarte te comprometés a:</p>
-                <ul className="list-disc list-inside space-y-1" style={{ color: "#171a4a" }}>
-                  <li>Acompañar activamente el uso de pantallas de tus hijos</li>
-                  <li>Promover espacios sin dispositivos en el hogar</li>
-                  <li>Apoyar las políticas de tu escuela sobre tecnología</li>
+                <p className="font-bold mb-2" style={{ color: "#000020" }}>Al sumarte te comprometés a:</p>
+                <ul className="space-y-1.5" style={{ color: "#171a4a" }}>
+                  {[
+                    "Postergar lo máximo posible el acceso a dispositivos personales, por lo menos hasta los 12 años.",
+                    "Establecer límites claros sobre el tiempo de pantallas y respetar las recomendaciones médicas.",
+                    "Conversar sobre el uso responsable de los dispositivos y de internet.",
+                    "Dar el ejemplo, priorizar el encuentro familiar y actividades sin pantallas.",
+                    "Compartir este compromiso con otras familias para promover la acción conjunta.",
+                  ].map((punto, i) => (
+                    <li key={i} className="flex gap-2">
+                      <span className="mt-0.5 flex-shrink-0" style={{ color: "#2f2c79" }}>•</span>
+                      <span>{punto}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
@@ -115,6 +124,19 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                     style={inputStyle}
                     placeholder="11 1234 5678"
                   />
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold mb-1.5 uppercase tracking-wide" style={{ color: "#171a4a" }}>Localidad</label>
+                  <select
+                    name="localidad" value={form.localidad} onChange={handleChange}
+                    className={inputClass}
+                    style={inputStyle}
+                  >
+                    <option value="">Seleccioná tu localidad…</option>
+                    {["Sarandí", "Villa Domínico", "Wilde", "Avellaneda", "Dock Sud", "Isla Maciel", "Gerli", "Piñeyro"].map(loc => (
+                      <option key={loc} value={loc}>{loc}</option>
+                    ))}
+                  </select>
                 </div>
                 <div>
                   <label className="block text-xs font-semibold mb-1.5 uppercase tracking-wide" style={{ color: "#171a4a" }}>

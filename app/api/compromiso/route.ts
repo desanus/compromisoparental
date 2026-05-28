@@ -13,13 +13,13 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { nombre, apellido, telefono, mail, colegio } = body;
+    const { nombre, apellido, telefono, mail, localidad, colegio } = body;
 
     if (!nombre || !apellido || !mail) {
       return NextResponse.json({ error: "Faltan campos requeridos" }, { status: 400 });
     }
 
-    await prisma.compromiso.create({ data: { nombre, apellido, telefono, mail, colegio } });
+    await prisma.compromiso.create({ data: { nombre, apellido, telefono, mail, localidad, colegio } });
     const count = await prisma.compromiso.count();
     return NextResponse.json({ ok: true, count });
   } catch (e) {

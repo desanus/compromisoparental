@@ -15,6 +15,7 @@ model Compromiso {
   apellido  String
   telefono  String?
   mail      String
+  localidad String?
   colegio   String?
   createdAt DateTime @default(now())
 }
