@@ -146,19 +146,21 @@ export default function HeroSection() {
 
             {/* Right: counter + CTA */}
             <div
-              className="animate-fade-in flex-shrink-0 flex flex-col items-center md:items-end gap-5 w-full md:w-auto"
+              className="animate-fade-in flex-shrink-0 flex flex-col items-center gap-5"
               style={{ animationDelay: "240ms" }}
             >
               <div
-                className="counter-pulse rounded-3xl px-8 py-8 md:px-12 md:py-10 text-center w-full"
+                className="counter-pulse rounded-full flex flex-col items-center justify-center text-center"
                 style={{
                   backgroundColor: "rgba(255,255,255,0.07)",
                   border: "1px solid rgba(255,255,255,0.15)",
                   backdropFilter: "blur(16px)",
-                  minWidth: "280px",
+                  width: "300px",
+                  height: "300px",
+                  flexShrink: 0,
                 }}
               >
-                <div className="flex items-center justify-center gap-2 mb-4">
+                <div className="flex items-center justify-center gap-2 mb-3">
                   <span
                     className="w-2 h-2 rounded-full flex-shrink-0"
                     style={{
@@ -168,7 +170,7 @@ export default function HeroSection() {
                     }}
                   />
                   <p
-                    className="text-xs font-bold tracking-widest uppercase"
+                    className="text-sm font-bold tracking-widest uppercase"
                     style={{ color: "#e8c39e" }}
                   >
                     {cfg.counterLabel}
@@ -176,18 +178,18 @@ export default function HeroSection() {
                 </div>
 
                 <p
-                  className="text-8xl md:text-9xl font-black tracking-tight leading-none"
+                  className="text-8xl font-black tracking-tight leading-none"
                   style={{ color: "#ffffff", textShadow: "0 0 40px rgba(255,255,255,0.15)" }}
                 >
                   {count === null ? "—" : displayCount.toLocaleString("es-AR")}
                 </p>
 
-                <div className="mt-5 flex items-center justify-center gap-3">
-                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
-                  <p className="text-sm font-semibold" style={{ color: "#f5e1ce" }}>
+                <div className="mt-3 flex items-center justify-center gap-2">
+                  <div className="h-px w-8 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
+                  <p className="text-xs font-semibold" style={{ color: "#f5e1ce" }}>
                     {cfg.counterSuffix}
                   </p>
-                  <div className="h-px w-10 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
+                  <div className="h-px w-8 rounded-full opacity-35" style={{ backgroundColor: "#f5e1ce" }} />
                 </div>
               </div>
 
@@ -195,17 +197,15 @@ export default function HeroSection() {
               <button
                 data-hero-btn
                 onClick={() => setShowModal(true)}
-                className="group font-black text-lg md:text-xl px-8 md:px-14 py-4 rounded-2xl shadow-xl transition-all duration-200 active:scale-95 hover:opacity-90 hover:shadow-2xl w-full"
+                className="group font-black text-lg px-8 py-4 rounded-2xl shadow-xl transition-all duration-200 active:scale-95 hover:opacity-90 hover:shadow-2xl"
                 style={{
                   backgroundColor: "#e8c39e",
                   color: "#000020",
                   boxShadow: "0 8px 32px rgba(232,195,158,0.35)",
+                  width: "200px",
                 }}
               >
                 {cfg.ctaText}
-                <span className="inline-block ml-2 transition-transform duration-200 group-hover:translate-x-1">
-                  →
-                </span>
               </button>
             </div>
 
