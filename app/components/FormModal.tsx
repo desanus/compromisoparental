@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import EscuelaCombobox from "./EscuelaCombobox";
 
 interface FormModalProps {
   onClose: () => void;
@@ -149,9 +150,11 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                     <label className={labelClass} style={{ color: "#171a4a" }}>
                       Colegio <span className="normal-case font-normal" style={{ color: "#e8c39e" }}>(opcional)</span>
                     </label>
-                    <input
-                      name="colegio" value={form.colegio} onChange={handleChange}
-                      className={inputClass} style={inputStyle} placeholder="Nombre del colegio"
+                    <EscuelaCombobox
+                      value={form.colegio}
+                      onChange={(v) => setForm(prev => ({ ...prev, colegio: v }))}
+                      inputClass={inputClass}
+                      inputStyle={inputStyle}
                     />
                   </div>
                 </div>

@@ -1,0 +1,2725 @@
+[
+  {
+    "nombre": "ESCUELA DE MUSICA POPULAR",
+    "direccion": "VELEZ SARSFIELD 680",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67086175,
+    "lng": -58.36378442,
+    "modalidad": "Educación Artística",
+    "niveles": [
+      "Ciclo Medio",
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº709/05",
+    "direccion": "ECHEVERRIA 797",
+    "localidad": "WILDE",
+    "lat": -34.71245367,
+    "lng": -58.32459585,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº710/05",
+    "direccion": "LYNCH Y ARREDONDO",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.71503444,
+    "lng": -58.32148551,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº711/08",
+    "direccion": "SUAREZ E/ ZEBALLOS Y ESTRADA 148",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66527284,
+    "lng": -58.35609659,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº712/02",
+    "direccion": "LUCENA 965",
+    "localidad": "AVELLANEDA",
+    "lat": -34.68076545,
+    "lng": -58.36805168,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº713/01",
+    "direccion": "ALTOLAGUIRRE 452",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.68755138,
+    "lng": -58.32890903,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº714/03",
+    "direccion": "N. OROÑO E/ GODOY CRUZ Y BAHIA BLANCA 5950",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69106769,
+    "lng": -58.30726723,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº716/04",
+    "direccion": "MANUEL ESTEVEZ E/ IRALA 1000",
+    "localidad": "DOCK SUD",
+    "lat": -34.65121048,
+    "lng": -58.34996656,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº717/05",
+    "direccion": "BOULEVARD DE LOS ITALIANOS 1463",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70993141,
+    "lng": -58.34207385,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº718/02",
+    "direccion": "ELIZALDE 1796",
+    "localidad": "GERLI",
+    "lat": -34.68756519,
+    "lng": -58.37344301,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº719/06",
+    "direccion": "CELEDONIO FLORES 183",
+    "localidad": "WILDE",
+    "lat": -34.70331853,
+    "lng": -58.34410463,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº721/04",
+    "direccion": "VIEYTES E/ MONTAÑA Y ARG. VALLE 1590",
+    "localidad": "AVELLANEDA",
+    "lat": -34.64183797,
+    "lng": -58.35200897,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº722/01",
+    "direccion": "GÉNOVA 3459",
+    "localidad": "SARANDI",
+    "lat": -34.67528602,
+    "lng": -58.33809713,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº723/01",
+    "direccion": "SUPISICHE 798",
+    "localidad": "SARANDI",
+    "lat": -34.68633945,
+    "lng": -58.35468817,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE ADULTOS Nº724/03",
+    "direccion": "ECHEVERRIA 285",
+    "localidad": "WILDE",
+    "lat": -34.7078543,
+    "lng": -58.31928123,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº701",
+    "direccion": "AVDA. MITRE E/ SUPISICHE Y ACHA 2985",
+    "localidad": "SARANDI",
+    "lat": -34.6806264,
+    "lng": -58.34577595,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº702",
+    "direccion": "SALTA 1769",
+    "localidad": "GERLI",
+    "lat": -34.69269178,
+    "lng": -58.36500043,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº703 \"DR. EDUARDO WILDE\"",
+    "direccion": "M. FIERRO E/ AV. MITRE Y M. MORENO 58",
+    "localidad": "AVELLANEDA",
+    "lat": -34.70258856,
+    "lng": -58.31875617,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº704",
+    "direccion": "DEBENEDETTI E/ MAZZINI Y PJE. BRIAND 1338",
+    "localidad": "DOCK SUD",
+    "lat": -34.64996158,
+    "lng": -58.34326134,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº705 \"FRAY MAMERTO ESQUIÚ\"",
+    "direccion": "SOLIER 6518",
+    "localidad": "WILDE",
+    "lat": -34.70907615,
+    "lng": -58.32034622,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº706 \"JOSÉ HERNANDEZ\"",
+    "direccion": "YAPEYU 1857",
+    "localidad": "WILDE",
+    "lat": -34.72251778,
+    "lng": -58.33089016,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº707",
+    "direccion": "CHILE E/ SGO. DEL ESTERO Y JUJUY 159",
+    "localidad": "PIÑEYRO",
+    "lat": -34.67927395,
+    "lng": -58.38606414,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE ADULTOS Nº708 \"NICOLAS AVELLANEDA\"",
+    "direccion": "AVENIDA MITRE 750",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66238,
+    "lng": -58.36457368,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº501 \"MARIA MONTESSORI\"",
+    "direccion": "LAPRIDA E / ZEBALLOS Y AMEGHINO 153",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66286039,
+    "lng": -58.36053274,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Primario",
+      "Nivel Inicial",
+      "Formación Integral"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº502 \"HÉROES DE MALVINAS\"",
+    "direccion": "ESPAÑA 621",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6647772,
+    "lng": -58.37519104,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Primario",
+      "Nivel Inicial",
+      "Formación Integral"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº503",
+    "direccion": "RAMON FRANCO E/ B. BLANCA Y M. FIERRO 6083",
+    "localidad": "WILDE",
+    "lat": -34.69744604,
+    "lng": -58.31304756,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Inicial",
+      "Formación Integral",
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº504 \"FLOREAL AVELLANEDA\"",
+    "direccion": "LUIS MARÍA CAMPOS 2974",
+    "localidad": "SARANDI",
+    "lat": -34.68112041,
+    "lng": -58.34662903,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Inicial",
+      "Formación Integral",
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº505 \"DR. JAIME CITRINOVITZ\"",
+    "direccion": "COLON 970",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66859635,
+    "lng": -58.36548272,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Inicial",
+      "Nivel Primario",
+      "Formación Integral"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº506",
+    "direccion": "AVENIDA DEBENEDETTI 2551",
+    "localidad": "DOCK SUD",
+    "lat": -34.6631421,
+    "lng": -58.34416952,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Formación Integral",
+      "Nivel Inicial",
+      "Nivel Primario",
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN ESPECIAL Nº507 \"DR. ROBERTO ORDENES\"",
+    "direccion": "HELGUERA E/ POSADAS Y PIERRES",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70340153,
+    "lng": -58.34545708,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Formación Integral",
+      "Nivel Primario",
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN INTEGRAL Nº1 \"CARLOS FIORITO\"",
+    "direccion": "ESPAÑA 649",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66492715,
+    "lng": -58.37539769,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Formación Integral",
+      "Residencia Laboral,Pasantías, Artística",
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN INTEGRAL Nº2 \"HÉCTOR ANTONIO PÉREZ\"",
+    "direccion": "LINCOLN E/PASAJE 3 Y RAQUEL ESPAÑOL",
+    "localidad": "WILDE",
+    "lat": -34.70060419,
+    "lng": -58.30746781,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Formación Profesional",
+      "Formación Integral",
+      "Residencia Laboral,Pasantías, Artística"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE EDUCACIÓN FÍSICA Nº71 \"RAMÓN CARRILLO\"",
+    "direccion": "YAPEYÚ 1860",
+    "localidad": "WILDE",
+    "lat": -34.72285379,
+    "lng": -58.33063388,
+    "modalidad": "Educación Física",
+    "niveles": [
+      "Educación Física (C.E.F.)"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACION DOCENTE Nº 1 \"ABUELAS DE PLAZA DE MAYO\"",
+    "direccion": "URUGUAY 18",
+    "localidad": "PIÑEYRO",
+    "lat": -34.67449213,
+    "lng": -58.38245397,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACION DOCENTE Nº100",
+    "direccion": "AV. BELGRANO 355",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66111427,
+    "lng": -58.36911825,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACION DOCENTE Nº101",
+    "direccion": "AV.MITRE 4900",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69247688,
+    "lng": -58.32814269,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº901 \"NICOLAS AVELLANEDA\"",
+    "direccion": "ALDECOA 817",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6637426,
+    "lng": -58.38271204,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº902 \"MARIA ELISA FIGUEROA\"",
+    "direccion": "PAUNERO 34",
+    "localidad": "SARANDI",
+    "lat": -34.68062965,
+    "lng": -58.3457261,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº903 \"ROSARIO VERA PEÑALOZA\"",
+    "direccion": "AV. MITRE E/B.BLANCA Y M. FIERRO 6174",
+    "localidad": "WILDE",
+    "lat": -34.70252357,
+    "lng": -58.3188981,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº904 \"DOCTORA CECILIA GRIERSON\"",
+    "direccion": "SANTA FE 1530",
+    "localidad": "PIÑEYRO",
+    "lat": -34.67440192,
+    "lng": -58.38311116,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº905 \"CONSTANCIO C. VIGIL\"",
+    "direccion": "ELIZALDE 12",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67182639,
+    "lng": -58.35375367,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº906 \"GRANADEROS DE SAN MARTIN\"",
+    "direccion": "IGUAZU E/V. LOPEZ Y R. GUTIERREZ 401",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66898848,
+    "lng": -58.34760476,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº907 \"HANS CH. ANDERSEN\"",
+    "direccion": "CHILE E/S. DEL ESTERO Y JUJUY 163",
+    "localidad": "PIÑEYRO",
+    "lat": -34.6792192,
+    "lng": -58.38608481,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº908 \"ROBERTO PERSICO\"",
+    "direccion": "ARENALES 42",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6659691,
+    "lng": -58.36005128,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº909 \"MARIANO MORENO\"",
+    "direccion": "MEJICO ESQ. GUIFRA 862",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66829328,
+    "lng": -58.39162333,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº910 \"GENERAL JOSÉ DE SAN MARTIN\"",
+    "direccion": "DONOVAN E/CASACUBERTA Y HEREDIA 1474",
+    "localidad": "AVELLANEDA",
+    "lat": -34.68532599,
+    "lng": -58.3692648,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº911 \"GABRIELA MISTRAL\"",
+    "direccion": "LEANDRO N. ALEM E/CESPEDES Y CAMP 1950",
+    "localidad": "DOCK SUD",
+    "lat": -34.6571065,
+    "lng": -58.34635331,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº912 \"RAQUEL ESPAÑOL\"",
+    "direccion": "N.OROÑO 6442",
+    "localidad": "WILDE",
+    "lat": -34.69511343,
+    "lng": -58.30206599,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº913 \"JUSTO ALFREDO LYNCH\"",
+    "direccion": "POLONIA E/ M. MORENO Y ZEBALLOS 160",
+    "localidad": "WILDE",
+    "lat": -34.69809705,
+    "lng": -58.32144386,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº914 \"BENITO QUINQUELA MARTÍN\"",
+    "direccion": "CAMINO GENERAL BELGRANO E/ RECONQUISTA 1040",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69142988,
+    "lng": -58.37429981,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº915 \"ALFONSINA STORNI\"",
+    "direccion": "TORCUATO DI TELLA 1481",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66632806,
+    "lng": -58.3970693,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº916",
+    "direccion": "LAMADRID 665",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65966602,
+    "lng": -58.35286441,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº917",
+    "direccion": "AV. GALICIA E/ LA RIOJA Y PERU 467",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67323235,
+    "lng": -58.38716624,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº918 \"CARLOTA B. DE DOMINICO\"",
+    "direccion": "COMODORO RIVADAVIA E/ P. DE PALOS 4427",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69392732,
+    "lng": -58.3375552,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº919",
+    "direccion": "PJE. USPALLATA 1471",
+    "localidad": "SARANDI",
+    "lat": -34.69327231,
+    "lng": -58.35886268,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº920 \"ISLAS MALVINAS\"",
+    "direccion": "CAMPICHUELO 616/62",
+    "localidad": "GERLI",
+    "lat": -34.68663533,
+    "lng": -58.37711427,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº921",
+    "direccion": "GUAMINI 5741",
+    "localidad": "WILDE",
+    "lat": -34.6889545,
+    "lng": -58.30883729,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº922",
+    "direccion": "COGHLAN ESQ. CASACUBERTA 1613",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69107,
+    "lng": -58.36410102,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº923 \"EMILIA FERREIRO\"",
+    "direccion": "RAMON FRANCO 6081",
+    "localidad": "WILDE",
+    "lat": -34.6975265,
+    "lng": -58.31331499,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº924 \"MADRE TERESA DE CALCUTA\"",
+    "direccion": "GENERAL PICO 155",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69498753,
+    "lng": -58.33319215,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº925",
+    "direccion": "AV. MITRE E/ LUJAN Y DEHEZA 3695",
+    "localidad": "SARANDI",
+    "lat": -34.68639862,
+    "lng": -58.3409524,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº926 \"CLOTILDE GUILLEN DE REZZANO\"",
+    "direccion": "YAPEYU",
+    "localidad": "WILDE",
+    "lat": -34.72294731,
+    "lng": -58.33087453,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº927 \"LOLA MORA\"",
+    "direccion": "AVDA. BELGRANO 1260",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67035012,
+    "lng": -58.36218879,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº928  \"JAVIER VILLAFAÑE\"",
+    "direccion": "AV. MITRE E/ESPORA Y ESTIBAU 2524",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67526967,
+    "lng": -58.34890094,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº929",
+    "direccion": "LA BLANQUEADA E/ ALTOLAGUIRRE Y WASHIN 4434",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.68731498,
+    "lng": -58.32950903,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº930 \"MARÍA ELENA WALSH\"",
+    "direccion": "VELEZ SARFIED E/ LIMAY Y CRISOLOGO LARRALDE",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67600431,
+    "lng": -58.36993845,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº931",
+    "direccion": "CANALEJAS 2060",
+    "localidad": "DOCK SUD",
+    "lat": -34.65876387,
+    "lng": -58.33122802,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº932 \"ALMAFUERTEI\"",
+    "direccion": "MARIANO ACOSTA 146",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66055797,
+    "lng": -58.36959591,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº1",
+    "direccion": "ELIZALDE 10",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67155079,
+    "lng": -58.3533001,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº2 \"JUAN MARÍA GUTIERREZ\"",
+    "direccion": "MARTÍN FIERRO 590",
+    "localidad": "WILDE",
+    "lat": -34.69782772,
+    "lng": -58.31290852,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº3 \"JOSÉ MANUEL ESTRADA\"",
+    "direccion": "DEHEZA E/ BRANDSEN Y MITRE 41",
+    "localidad": "SARANDI",
+    "lat": -34.68670615,
+    "lng": -58.3409974,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº 4 \"ELADIA BLAZQUEZ\"",
+    "direccion": "GENERAL DONOVAN 1470",
+    "localidad": "GERLI",
+    "lat": -34.68544897,
+    "lng": -58.36918624,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº5 \"REG. 3 DE INF. G. M. BELGRANO\"",
+    "direccion": "LEBENSOHN 965",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66665274,
+    "lng": -58.38210805,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº6 \"GRANADEROS DE SAN MARTÍN\"",
+    "direccion": "GIRIBONE 648",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66328467,
+    "lng": -58.37935319,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº7 \"GENERAL MANUEL BELGRANO\"",
+    "direccion": "CNO. GRAL BELGRANO E/ RECONQUISTA Y TRES SARGENTO 1030",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6912706,
+    "lng": -58.37446141,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº8",
+    "direccion": "CORONEL RONDEAU 1910",
+    "localidad": "WILDE",
+    "lat": -34.71830584,
+    "lng": -58.33997115,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº9",
+    "direccion": "RAMON FRANCO E/ AV. MITRE Y SAN VICENTE 5031",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.6955248,
+    "lng": -58.32741319,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº10",
+    "direccion": "LAS FLORES E/VIRREY DEL PINO Y TOAY 1600",
+    "localidad": "WILDE",
+    "lat": -34.69114433,
+    "lng": -58.30315234,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº11 \"SIMÓN BOLIVAR\"",
+    "direccion": "GELLY Y OBES 280",
+    "localidad": "SARANDI",
+    "lat": -34.68103866,
+    "lng": -58.34052225,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº12 \"REPÚBLICA DE COLOMBIA\"",
+    "direccion": "PITÁGORAS 1450",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67438321,
+    "lng": -58.36154535,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº13 \"DR. DALMACIO V. SARSFIELD\"",
+    "direccion": "BERUTI E/ PALAA Y BELGRANO 263",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66291774,
+    "lng": -58.36908201,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTROEDUCATIVO DE NIVEL SECUNDARIO N°457  \"DR. ROBERTO NOBLE\"",
+    "direccion": "BERUTTI E/ PALAA Y BELGRANO 263",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66296368,
+    "lng": -58.36898268,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO NIVEL SECUNDARIO Nº451",
+    "direccion": "AV. MITRE E/ 25 DE MAYO Y SARMIENTO 750",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66226495,
+    "lng": -58.36472472,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Plan Fines (Trayectos y Deudores)",
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO NIVEL SECUNDARIO Nº452",
+    "direccion": "MEJICO 862",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66832438,
+    "lng": -58.39158135,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO NIVEL SECUNDARIO Nº453",
+    "direccion": "MERLO 5687",
+    "localidad": "WILDE",
+    "lat": -34.69244126,
+    "lng": -58.31525899,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº18 \"PROSPERO ALEMANDRI\"",
+    "direccion": "BELGRANO E/ ESPAÑA Y MARIANO ACOSTA 355",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66086219,
+    "lng": -58.36930809,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "C.E.B.A.S. Nº10",
+    "direccion": "ANTOLE FRANCE 773",
+    "localidad": "AVELLANEDA",
+    "lat": -34.68138903,
+    "lng": -58.35796414,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº1 \"JOSÉ INGENIEROS\"",
+    "direccion": "L. N. ALEM ESQ. VERTIZ 1910",
+    "localidad": "DOCK SUD",
+    "lat": -34.65677826,
+    "lng": -58.3462529,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº2 \"GRAL. ENRIQUE MOSCONI\"",
+    "direccion": "GRAL. PICO E/ EL TROPEZON Y HELGUERA 1305",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70467143,
+    "lng": -58.34464324,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº3 \"REPÚBLICA DE MÉXICO\"",
+    "direccion": "CAXARAVILLE Y FRIULI",
+    "localidad": "WILDE",
+    "lat": -34.71864741,
+    "lng": -58.33948567,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº4 \"DR. ERNESTO LONGOBARDI\"",
+    "direccion": "LAMBARE E/ OCAMPO Y SOLIER 645",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67457627,
+    "lng": -58.36089913,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº5 \"DR. SALVADOR DEBENEDETTI\"",
+    "direccion": "JUAN BAUTISTA PALAA E/ ALSINA Y 9 DE JULIO 747",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66601977,
+    "lng": -58.36806174,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº6",
+    "direccion": "AVENIDA MITRE 5711",
+    "localidad": "WILDE",
+    "lat": -34.69937349,
+    "lng": -58.3238705,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº7 \"JOSÉ HERNÁNDEZ\"",
+    "direccion": "ING. MARCONI E/ SARMIENTO Y 25 DE MAYO 745",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66183662,
+    "lng": -58.36408746,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº8 \"ING. Y DR. ANGEL GALLARDO\"",
+    "direccion": "LAVALLE E/ MITRE Y BELGRANO 43",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66253729,
+    "lng": -58.36612446,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA TÉCNICA Nº9 \"ING. TORCUATO DI TELLA\"",
+    "direccion": "AVDA. RIVADAVIA E/ A. LOPEZ Y M. BRAVO 1069",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67104673,
+    "lng": -58.39340709,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº1 \"NICOLAS AVELLANEDA\"",
+    "direccion": "AVDA.MITRE E/SARMIENTO Y 25 DE MAYO 750",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66230869,
+    "lng": -58.3646434,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº2 \"REPUBLICA ARGENTINA\"",
+    "direccion": "MÉJICO 862",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66835164,
+    "lng": -58.39154088,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº3 \"CARLOTA B. DE DOMINICO\"",
+    "direccion": "ADROGUE E/ BARADERO Y SOREDA 438",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69147657,
+    "lng": -58.32402301,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº4 \"MARIA EVA DUARTE DE PERON\"",
+    "direccion": "C.LARRALDE Y V.SARFIELD",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67538235,
+    "lng": -58.36927984,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº5 \"FRAGATA SARMIENTO\"",
+    "direccion": "AVDA MITRE E/ CASSAZA Y ARMENIA 4368",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69028178,
+    "lng": -58.33517466,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº6 \"CNEL. DE MARINA M. JACOBO THOMPSON\"",
+    "direccion": "VIEYTES E/ VALLE Y MONTAÑA 1590",
+    "localidad": "DOCK SUD",
+    "lat": -34.64204411,
+    "lng": -58.3518433,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº7 \"MARIANO MORENO\"",
+    "direccion": "9 DE JULIO E/ SAN MARTÍN Y BELGRANO 214",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66554729,
+    "lng": -58.36453558,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº8 \"NUESTRA SEÑORA DEL CARMEN\"",
+    "direccion": "MARTÍN FIERRO E/ MITRE Y MORENO 58",
+    "localidad": "WILDE",
+    "lat": -34.70239966,
+    "lng": -58.31820097,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº9 \"MANUEL NICOLÁS SAVIO\"",
+    "direccion": "MANUEL ESTEVEZ 1000",
+    "localidad": "DOCK SUD",
+    "lat": -34.65102845,
+    "lng": -58.34983082,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº10 \"DR. RICARDO GUTIERREZ\"",
+    "direccion": "AVDA MITRE E/ ACHA Y PAUNERO 2985",
+    "localidad": "SARANDI",
+    "lat": -34.68111031,
+    "lng": -58.3465087,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº11 \"JULIO ARGENTINO ROCA\"",
+    "direccion": "CHACABUCO E/ MONTES DE OCA Y ALMAFUERT 771",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65388604,
+    "lng": -58.3627799,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº13 \"ALMIRANTE GUILLERMO BROWN\"",
+    "direccion": "25 DE MAYO E/ ESTRADA Y ZEBALLOS 371",
+    "localidad": "AVELLANEDA",
+    "lat": -34.659571,
+    "lng": -58.36132512,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº14 \"DOMINGO FAUSTINO SARMIENTO\"",
+    "direccion": "ALDECOA E/ RIVERO Y FERNANDEZ 821",
+    "localidad": "PIÑEYRO",
+    "lat": -34.6638602,
+    "lng": -58.38276835,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº15 \"MARIA SANCHEZ DE THOMPSON\"",
+    "direccion": "MAGAN E/ LARRALDE Y ARREDONDO 981",
+    "localidad": "SARANDI",
+    "lat": -34.68847629,
+    "lng": -58.35541077,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº16 \"JOSÉ MANUEL ESTRADA\"",
+    "direccion": "COMOD. RIV. E/ OYUELA Y P. DE PALOS 4455",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69400601,
+    "lng": -58.33744354,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº17 \"HIPOLITO YRIGOYEN\"",
+    "direccion": "CHILE E/ SGO. DEL ESTERO Y JUJUY 159",
+    "localidad": "PIÑEYRO",
+    "lat": -34.67918239,
+    "lng": -58.38619983,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº18 \"PAULA ALBARRACIN DE SARMIENTO\"",
+    "direccion": "AVENIDA MITRE E/ ESTIBAU Y ESPORA 2550",
+    "localidad": "SARANDI",
+    "lat": -34.67535676,
+    "lng": -58.3487131,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº20 \"GABRIELA MISTRAL\"",
+    "direccion": "BAHIA BLANCA E/ R. FRANCO Y SOREDA 585",
+    "localidad": "WILDE",
+    "lat": -34.69738016,
+    "lng": -58.31370006,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº21 \"GENERAL JOSÉ DE SAN MARTIN\"",
+    "direccion": "LOBOS E/ MORENO Y ZEBALLOS 161",
+    "localidad": "WILDE",
+    "lat": -34.69775941,
+    "lng": -58.32206897,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº22 \"JUAN BAUTISTA ALBERDI\"",
+    "direccion": "AVDA MITRE E/ OBLIGADO Y ELIZALDE 2125",
+    "localidad": "SARANDI",
+    "lat": -34.67176829,
+    "lng": -58.35312518,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº23 \"FRANCISCO DE VITORIA\"",
+    "direccion": "ACHA Y PITAGORAS",
+    "localidad": "SARANDI",
+    "lat": -34.69452289,
+    "lng": -58.3591967,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº24 \"FRAY CAYETANO JOSÉ RODRIGUEZ\"",
+    "direccion": "BASAVILBASO E/ CASACUBERTA Y DE LA SER 1612",
+    "localidad": "GERLI",
+    "lat": -34.69094828,
+    "lng": -58.36441902,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº25 \"NUESTRA SEÑORA DE LA ASUNCION\"",
+    "direccion": "SUAREZ E/ ZEBALLOS Y ESTRADA 148",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66529867,
+    "lng": -58.35600681,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº27 \"JUAN MARTÍN DE PUEYRREDON\"",
+    "direccion": "CHASCOMUS E/ AGUERO Y ARREDONDO 975",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70330944,
+    "lng": -58.33755183,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº28 \"EMBAJADOR MARCO M. AVELLANEDA\"",
+    "direccion": "AVDA. PAVON 1539",
+    "localidad": "PIÑEYRO",
+    "lat": -34.67472273,
+    "lng": -58.38247658,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº31 \"ALEJANDRO MARÍA DE AGUADO\"",
+    "direccion": "IRALA 1933",
+    "localidad": "DOCK SUD",
+    "lat": -34.65667069,
+    "lng": -58.34968653,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº32 \"MARTÍN FIERRO\"",
+    "direccion": "DE LA SERNA E/POSADAS Y OYUELA 4655",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.7048582,
+    "lng": -58.34832241,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº33 \"JORGE NEWBERY\"",
+    "direccion": "INGENIERO HUERGO 1534",
+    "localidad": "DOCK SUD",
+    "lat": -34.65523655,
+    "lng": -58.34317612,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº35 \"ESTEBAN DE LUCA\"",
+    "direccion": "AVDA. DEBENEDETTI E/BRIAND Y MAZZINI 1338",
+    "localidad": "DOCK SUD",
+    "lat": -34.64997561,
+    "lng": -58.34333895,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº36 \"RICARDO ROJAS\"",
+    "direccion": "AVDA. MITRE 3695",
+    "localidad": "SARANDI",
+    "lat": -34.68638004,
+    "lng": -58.34089373,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº37 \"RIO DE LA PLATA\"",
+    "direccion": "LACARRA E/ DE LA SERNA Y CASACUBERTA 1530",
+    "localidad": "GERLI",
+    "lat": -34.68393296,
+    "lng": -58.37247879,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº38 \"TENIENTE MANUEL FELIX ORGONE\"",
+    "direccion": "NICASIO OROÑO E/ B.BLANCA Y GODOY CRUZ 5950",
+    "localidad": "WILDE",
+    "lat": -34.69113365,
+    "lng": -58.30715968,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº40 \"REPUBLICA DE PORTUGAL\"",
+    "direccion": "CAMPICHUELO E/ RCA. DEL LIB. Y LACARRA 765",
+    "localidad": "GERLI",
+    "lat": -34.68745738,
+    "lng": -58.37614355,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº41 \"GENERAL JUAN LAVALLE\"",
+    "direccion": "AVDA. GALICIA E/ PERU Y LA RIOJA 467",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67332254,
+    "lng": -58.38703217,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº42 \"JUAN ENRIQUE PESTALOZZI\"",
+    "direccion": "BELGRANO E/ V. SARSFIELD Y GÜEMES 1378",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67472561,
+    "lng": -58.36114081,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº43 \"JOSÉ SEBASTIAN TALLON\"",
+    "direccion": "MERLO E/ LOBOS Y NAVARRO 5687",
+    "localidad": "WILDE",
+    "lat": -34.69240413,
+    "lng": -58.31513234,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº45 \"GENERAL MANUEL BELGRANO\"",
+    "direccion": "CNO. G. BELGRANO E/RECONQUISTA Y 3 SGTOS. 1030",
+    "localidad": "GERLI",
+    "lat": -34.69137738,
+    "lng": -58.37436607,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº46 \"BERNARDINO RIVADAVIA\"",
+    "direccion": "LAVALLE 131",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66362849,
+    "lng": -58.36778909,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº47 \"MARTÍN MIGUEL DE GÜEMES\"",
+    "direccion": "EL CEIBAL (EX PASAJE LAS QUINTAS)",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.67020697,
+    "lng": -58.30880824,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº50 \"JUAN GUTEMBERG\"",
+    "direccion": "RAQUEL ESPAÑOL Y PINO 1465",
+    "localidad": "WILDE",
+    "lat": -34.69387921,
+    "lng": -58.3011205,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº51 \"PROFESOR JUAN MANTOVANI\"",
+    "direccion": "CAMPICHUELO E/ LYNCH Y YAPEYU 6709",
+    "localidad": "WILDE",
+    "lat": -34.7225839,
+    "lng": -58.33039222,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº52 \"ALICIA MOREAU DE JUSTO\"",
+    "direccion": "LAS FLORES E/ PINO Y ROBLE 1600",
+    "localidad": "WILDE",
+    "lat": -34.69187365,
+    "lng": -58.30142284,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº53 \"BARTOLOME MITRE\"",
+    "direccion": "PASO DE LA PATRIA 1830",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66852503,
+    "lng": -58.39694837,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº55 \"20 DE JUNIO\"",
+    "direccion": "RODO E/ HEREDIA Y DE LA FUENTE 1150",
+    "localidad": "WILDE",
+    "lat": -34.71351066,
+    "lng": -58.33073017,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº57 \"JUANA FERNANDEZ DE REQUENA\"",
+    "direccion": "PASTEUR E/ LAFUENTE Y LUCENA 1067",
+    "localidad": "SARANDI",
+    "lat": -34.69605065,
+    "lng": -58.3502359,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº58 \"MARTÍN JOSÉ DE LA SERNA\"",
+    "direccion": "POSADAS Y HEREDIA",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70260182,
+    "lng": -58.34505876,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº59 \"ALMAFUERTE\"",
+    "direccion": "PIERRES E/ CARRIEGO Y LARRALDE 1250",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70204514,
+    "lng": -58.34166337,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº60 \"CORONEL LUIS PIEDRA BUENA\"",
+    "direccion": "HEREDIA E/ F. VARELA Y V. SARSFIELD 961",
+    "localidad": "GERLI",
+    "lat": -34.67993706,
+    "lng": -58.37318441,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº61 \"JOHN F. KENNEDY\"",
+    "direccion": "BOULEVAR DE LOS ITALIANOS 1463",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.7098613,
+    "lng": -58.34195291,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº63 \"GRANADEROS DE SAN MARTIN\"",
+    "direccion": "RONDEAU",
+    "localidad": "WILDE",
+    "lat": -34.71841017,
+    "lng": -58.34019866,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº64 \"CRISOLOGO LARRALDE\"",
+    "direccion": "ALTOLAGUIRRE E/ LA BLANQUEADA Y SOREDA 452",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.68758704,
+    "lng": -58.32897631,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº66 \"ENTRE RIOS\"",
+    "direccion": "BELGRANO E/ PICO Y PIERRES 4800",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69515917,
+    "lng": -58.33335713,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº67 \"GUARDA COSTA RIO IGUAZU\"",
+    "direccion": "CANALEJAS E/ GONGORA Y PROGRESO 2053",
+    "localidad": "DOCK SUD",
+    "lat": -34.65860162,
+    "lng": -58.33154018,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº68 \"PROSPERO G. ALEMANDRI\" (NORMAL SUPERI",
+    "direccion": "BELGRANO E/ AGOSTA Y ESPAÑA 355",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66102037,
+    "lng": -58.36919455,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº401 \"NICOLÁS AVELLANEDA\"",
+    "direccion": "J.P.ANGULO E/ ALEM Y AVELLANEDA 1272",
+    "localidad": "DOCK SUD",
+    "lat": -34.65164089,
+    "lng": -58.34699861,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL N°403 \"ASOCIACIÓN CRISTIANA DE JÓVENES\"",
+    "direccion": "ALMIRANTE CORDERO 2245",
+    "localidad": "SARANDI",
+    "lat": -34.6796963,
+    "lng": -58.35881233,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº404",
+    "direccion": "PASAJE CARLINO 6243",
+    "localidad": "WILDE",
+    "lat": -34.70859936,
+    "lng": -58.32508208,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº405 \"VALENTÍN FERNÁNDEZ\"",
+    "direccion": "ESTEBAN ECHEVERRÍA 355",
+    "localidad": "WILDE",
+    "lat": -34.70850765,
+    "lng": -58.32007566,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº1 DEL SOL",
+    "direccion": "PRESBITERO LAMANNA (EX LEBENSOHN) E/CO 1075",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66804321,
+    "lng": -58.38309518,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº3 ISLA MACIEL",
+    "direccion": "ESPEJO Y LAS HERAS 1411",
+    "localidad": "AVELLANEDA",
+    "lat": -34.64096569,
+    "lng": -58.35474305,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº6 PATO DONALD",
+    "direccion": "AVENIDA RAMON FRANCO E/ SAN VICENTE Y AVENIDA BARTOLOME MITRE",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69535382,
+    "lng": -58.32681443,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº2 LA HORMIGUITA VIAJERA",
+    "direccion": "DE LA SERNA E/ CASACUBERTA Y PICO 4700",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.7060013,
+    "lng": -58.34645624,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL EMILIO A. GRANDE",
+    "direccion": "COLÓN 446",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66313592,
+    "lng": -58.37128747,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº5 BURBUJITAS",
+    "direccion": "AVENIDA BELGRANO 4049",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69057804,
+    "lng": -58.33951137,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº9 \"CARLOS GUIDO SPANO\"",
+    "direccion": "SALVADOR SOREDA 5455",
+    "localidad": "WILDE",
+    "lat": -34.69376827,
+    "lng": -58.31989709,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº15 \"RICARDO ROJAS\"",
+    "direccion": "ARGAÑARAZ 1161",
+    "localidad": "DOCK SUD",
+    "lat": -34.65796047,
+    "lng": -58.35160134,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº18 ALFONSINA STORNI",
+    "direccion": "LIMAY E/ DE LA SERNA Y CASACUBERTA 1605",
+    "localidad": "GERLI",
+    "lat": -34.68137712,
+    "lng": -58.37791423,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INF.MUNICIPAL Nº21 DOMINGO F.SARMIENTO",
+    "direccion": "ESTANISLAO DEL CAMPO 947",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65726129,
+    "lng": -58.35402202,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº17 VILLA ARGENTINA",
+    "direccion": "BASAVILBASO 1943",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69317496,
+    "lng": -58.367686,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº14 VILLA KEMMETER",
+    "direccion": "ARRIBEÑOS Y CUCHA CUCHA 331",
+    "localidad": "SARANDI",
+    "lat": -34.67639266,
+    "lng": -58.34142372,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº12",
+    "direccion": "25 DE MAYO E/ DEFENSA Y ESTEVEZ 1000",
+    "localidad": "DOCK SUD",
+    "lat": -34.65420293,
+    "lng": -58.35095805,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL M. OCAMPO",
+    "direccion": "ALMIRANTE CORDERO 2145",
+    "localidad": "SARANDI",
+    "lat": -34.6793279,
+    "lng": -58.35927296,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº7 PROFESORA E.M. MERCER",
+    "direccion": "GRAL PAZ 1034",
+    "localidad": "GERLI",
+    "lat": -34.67545218,
+    "lng": -58.37376847,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº4",
+    "direccion": "RAMALLO 130",
+    "localidad": "SARANDI",
+    "lat": -34.68580665,
+    "lng": -58.33765629,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº8 VILLA OYUELA",
+    "direccion": "ANATOLE FRANCE 1470",
+    "localidad": "GERLI",
+    "lat": -34.68844097,
+    "lng": -58.36468681,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº11 MANUEL BELGRANO",
+    "direccion": "SAN NICOLÁS 6178",
+    "localidad": "WILDE",
+    "lat": -34.69562559,
+    "lng": -58.30828232,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº27",
+    "direccion": "SARGENTO PONCE Y ALEM 790",
+    "localidad": "DOCK SUD",
+    "lat": -34.64506802,
+    "lng": -58.34670859,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº22 \"NANCY VANRELL\"",
+    "direccion": "JOSÉ HERNÁNDEZ 545",
+    "localidad": "WILDE",
+    "lat": -34.70811471,
+    "lng": -58.32530622,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº26 GENERAL PICO",
+    "direccion": "PEDERNERA 1769",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70632686,
+    "lng": -58.34906483,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº23",
+    "direccion": "BARCELO 1983",
+    "localidad": "AVELLANEDA",
+    "lat": -34.70752569,
+    "lng": -58.35508316,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº28 \"LUNARCITO ROJO\"",
+    "direccion": "VENEZUELA 6210",
+    "localidad": "WILDE",
+    "lat": -34.72006458,
+    "lng": -58.33575598,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº24",
+    "direccion": "DEHEZA 1023",
+    "localidad": "SARANDI",
+    "lat": -34.69522989,
+    "lng": -58.35075226,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº30",
+    "direccion": "MANUEL GALVEZ 28",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.7014205,
+    "lng": -58.34236257,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº34 PATITO FEO",
+    "direccion": "CANGALLO 5827",
+    "localidad": "WILDE",
+    "lat": -34.71543074,
+    "lng": -58.33838511,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº29 LOS PINITOS",
+    "direccion": "LAS FLORES (ESQ. PINO) 1600",
+    "localidad": "WILDE",
+    "lat": -34.69185872,
+    "lng": -58.30070655,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº33 AMAPOLA",
+    "direccion": "GENERAL VILLEGAS 4233",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69516472,
+    "lng": -58.34221906,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº13",
+    "direccion": "SUPISICHE E/ VILLEGAS Y CORDERO 641",
+    "localidad": "SARANDI",
+    "lat": -34.68487337,
+    "lng": -58.35330607,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº25",
+    "direccion": "MANUEL ESTEVEZ E/ A. ROCA Y PINZON 1120",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65033568,
+    "lng": -58.35682894,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL INES COLLAZO DE DASCANIO",
+    "direccion": "MERLO 4160",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.68164751,
+    "lng": -58.32888307,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº37 VILLA GONNET",
+    "direccion": "MARTINTO 1255",
+    "localidad": "WILDE",
+    "lat": -34.71817538,
+    "lng": -58.32706586,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº38 ACUARELA",
+    "direccion": "POSADAS 956",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69810891,
+    "lng": -58.33955342,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº36 MAFALDA",
+    "direccion": "ESPAÑA 605",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6645723,
+    "lng": -58.37497298,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº40 \"SEBASTIAN BICCA\"",
+    "direccion": "ELIZALDE 1350",
+    "localidad": "GERLI",
+    "lat": -34.68391254,
+    "lng": -58.36889906,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº32 PIMPOLLITO",
+    "direccion": "O´HIGGINS 2050",
+    "localidad": "GERLI",
+    "lat": -34.69363512,
+    "lng": -58.36938844,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº39 \"MI ESTRELLITA\"",
+    "direccion": "BELGRANO 5952",
+    "localidad": "WILDE",
+    "lat": -34.70295481,
+    "lng": -58.32363311,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN MUNICIPAL Nº20 \"ARCO IRIS\"",
+    "direccion": "SUAREZ Y NUÑEZ",
+    "localidad": "DOCK SUD",
+    "lat": -34.66133352,
+    "lng": -58.34539589,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº934 \"COOPERATIVA ISLA MACIEL\"",
+    "direccion": "GÉNOVA 3561",
+    "localidad": "SARANDI",
+    "lat": -34.6761027,
+    "lng": -58.33842748,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº 70 \"JUANA AZURDUY\"",
+    "direccion": "GÉNOVA 3459",
+    "localidad": "SARANDI",
+    "lat": -34.6749006,
+    "lng": -58.33886897,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº933 \"JARDÍN DE FATIMA\"",
+    "direccion": "LOBOS 787",
+    "localidad": "WILDE",
+    "lat": -34.69225765,
+    "lng": -58.31574028,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO DE NIVEL SECUNDARIO Nº456",
+    "direccion": "AVDA. MITRE 2550",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67537949,
+    "lng": -58.34879036,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN PRIMARIA Nº69 \"DR. ANTONIO CAVIGLIA\"",
+    "direccion": "LYNCH 799",
+    "localidad": "WILDE",
+    "lat": -34.71512568,
+    "lng": -58.32116201,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Primario"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO MUNICIPAL DE MÚSICA",
+    "direccion": "COLON 451",
+    "localidad": "AVELLANEDA",
+    "lat": -34.6636295,
+    "lng": -58.37142421,
+    "modalidad": "Educación Artística",
+    "niveles": [
+      "Ciclo de Iniciación",
+      "Ciclo Medio",
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº406",
+    "direccion": "BASAVILBASO E/ CASACUBERTA Y HEREDIA 1516",
+    "localidad": "SARANDI",
+    "lat": -34.69030725,
+    "lng": -58.36353431,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº408",
+    "direccion": "INGENIERO HUERGO 1586",
+    "localidad": "DOCK SUD",
+    "lat": -34.65525024,
+    "lng": -58.34239236,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "ESCUELA ESPECIAL Nº508",
+    "direccion": "CASELLA PIÑERO 540",
+    "localidad": "SARANDI",
+    "lat": -34.67889186,
+    "lng": -58.35597763,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Inicial",
+      "Nivel Primario",
+      "Formación Integral"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº 21 \"RENÉ FAVALORO\"",
+    "direccion": "YAPEYÚ E/ ARREDONDO Y MANSILLA",
+    "localidad": "WILDE",
+    "lat": -34.71475062,
+    "lng": -58.3215235,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA N°32",
+    "direccion": "RAQUEL ESPAÑOL (EX MONTE) Y PINO 1465",
+    "localidad": "WILDE",
+    "lat": -34.69381507,
+    "lng": -58.30104542,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº26",
+    "direccion": "DE LA PEÑA 1452",
+    "localidad": "WILDE",
+    "lat": -34.71068703,
+    "lng": -58.34061458,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA N°1 - EXTENSIÓN 2",
+    "direccion": "AVENIDA MITRE 2550",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67540901,
+    "lng": -58.34864848,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº25",
+    "direccion": "CAMPICHUELO 6709",
+    "localidad": "WILDE",
+    "lat": -34.72254976,
+    "lng": -58.33035913,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA N°35 \"HÉROES DE MALVINAS\"",
+    "direccion": "ALFREDO CARLINO 6211",
+    "localidad": "WILDE",
+    "lat": -34.70842288,
+    "lng": -58.3249717,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº23",
+    "direccion": "DE LA SERNA E/POSADAS Y OYUELA 4655",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70479409,
+    "lng": -58.34824729,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ANEXO I DE ESCUELA DE EDUCACIÓN SECUNDARIA Nº28",
+    "direccion": "ADROGUE 460",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69143226,
+    "lng": -58.32398808,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº 24 \"ARGENTINO VALLE\"",
+    "direccion": "JOSÉ MARÍA MONTAÑA 454",
+    "localidad": "DOCK SUD",
+    "lat": -34.64174155,
+    "lng": -58.3523495,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº27",
+    "direccion": "AVENIDA ROCA 325",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65382194,
+    "lng": -58.36270482,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA N°34",
+    "direccion": "AV. RAMON FRANCO E/ BAHÍA BLANCA Y MARTÍN FIERRO",
+    "localidad": "WILDE",
+    "lat": -34.6974631,
+    "lng": -58.31370158,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº30",
+    "direccion": "REPÚBLICA DEL LÍBANO 1519",
+    "localidad": "GERLI",
+    "lat": -34.68432674,
+    "lng": -58.37193142,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA N°33",
+    "direccion": "COMODORO RIVADAVIA 4455",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.69404743,
+    "lng": -58.33739802,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº31",
+    "direccion": "PIERRES E/ CARRIEGO Y LARRALDE 1250",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.70198102,
+    "lng": -58.34158825,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº 28 \"GRACIELA CARMEN PANE\"",
+    "direccion": "LA BLANQUEADA 4464",
+    "localidad": "VILLA DOMINICO",
+    "lat": -34.68753283,
+    "lng": -58.32919844,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº22",
+    "direccion": "NUÑEZ 1349",
+    "localidad": "DOCK SUD",
+    "lat": -34.65000492,
+    "lng": -58.34510052,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº29",
+    "direccion": "OLAVARRIA 248",
+    "localidad": "CRUCESITA",
+    "lat": -34.66382458,
+    "lng": -58.35551052,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE EDUCACIÓN FÍSICA Nº152 \"JUAN CARLOS ZABALA\"",
+    "direccion": "AV. ROCA 325",
+    "localidad": "DOCK SUD",
+    "lat": -34.65321036,
+    "lng": -58.36254358,
+    "modalidad": "Educación Física",
+    "niveles": [
+      "Educación Física (C.E.F.)"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº410 \"MANUEL BELGRANO\"",
+    "direccion": "SPURR 268",
+    "localidad": "SARANDI",
+    "lat": -34.67487488,
+    "lng": -58.35480886,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO MUNICIPAL DE CERÁMICA",
+    "direccion": "MITRE 2724",
+    "localidad": "SARANDI",
+    "lat": -34.67699918,
+    "lng": -58.3475477,
+    "modalidad": "Educación Artística",
+    "niveles": [
+      "Nivel Superior",
+      "Ciclo de Iniciación"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN SECUNDARIA Nº20",
+    "direccion": "GENOVA 3459",
+    "localidad": "SARANDI",
+    "lat": -34.67476093,
+    "lng": -58.33889776,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº411",
+    "direccion": "AV. BELGRANO 1191",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66991234,
+    "lng": -58.36307648,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº401 - ANEXO",
+    "direccion": "IRALA ESQUINA ARGENTINA VALLE",
+    "localidad": "DOCK SUD",
+    "lat": -34.6442126,
+    "lng": -58.34880198,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO MUNICIPAL SUPERIOR DE FORMACIÓN TÉCNICA",
+    "direccion": "COLON 451",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66353797,
+    "lng": -58.37148493,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº409",
+    "direccion": "AMEGHINO E/ FRENCH Y LAVALLE 563",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65952624,
+    "lng": -58.36461522,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO MUNICIPAL DE ARTES PLÁSTICAS",
+    "direccion": "ARENALES 451",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66856918,
+    "lng": -58.36463433,
+    "modalidad": "Educación Artística",
+    "niveles": [
+      "Nivel Superior",
+      "Ciclo de Iniciación"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº410 - ANEXO",
+    "direccion": "SPURR 268",
+    "localidad": "AVELLANEDA",
+    "lat": -34.67483018,
+    "lng": -58.35474507,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACION TÉCNICA Nº197",
+    "direccion": "AVDA. BELGRANO 1191",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66995937,
+    "lng": -58.36304596,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES MUNICIPAL Nº31 \"FRUTILLITAS\"",
+    "direccion": "EMILIO ZOLA 3967",
+    "localidad": "AVELLANEDA",
+    "lat": -34.68421842,
+    "lng": -58.33605101,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES Nº935 \"MARÍA JUANA CÁCERES\"",
+    "direccion": "YAPEYÚ 724",
+    "localidad": "WILDE",
+    "lat": -34.71453817,
+    "lng": -58.32115958,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO MUNICIPAL Nº122",
+    "direccion": "SARGENTO PONCE 790",
+    "localidad": "DOCK SUD",
+    "lat": -34.6451077,
+    "lng": -58.34664028,
+    "modalidad": "Psicología Comunitaria y Pedagogía Social",
+    "niveles": [
+      "Psicología Comunitaria y Pedagogía Social (C.E.C)"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO MUNICIPAL Nº123",
+    "direccion": "OYUELA 1975",
+    "localidad": "VILLA CORINA",
+    "lat": -34.7085375,
+    "lng": -58.35392133,
+    "modalidad": "Psicología Comunitaria y Pedagogía Social",
+    "niveles": [
+      "Psicología Comunitaria y Pedagogía Social (C.E.C)"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO MUNICIPAL Nº124",
+    "direccion": "DEHEZA 1023",
+    "localidad": "AVELLANEDA",
+    "lat": -34.69526439,
+    "lng": -58.35078105,
+    "modalidad": "Psicología Comunitaria y Pedagogía Social",
+    "niveles": [
+      "Psicología Comunitaria y Pedagogía Social (C.E.C)"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO MUNICIPAL Nº125",
+    "direccion": "MANUEL ESTEVEZ 1120",
+    "localidad": "AVELLANEDA",
+    "lat": -34.65049888,
+    "lng": -58.35729027,
+    "modalidad": "Psicología Comunitaria y Pedagogía Social",
+    "niveles": [
+      "Psicología Comunitaria y Pedagogía Social (C.E.C)"
+    ]
+  },
+  {
+    "nombre": "CENTRO EDUCATIVO MUNICIPAL Nº126",
+    "direccion": "CELEDONIO FLORES 4727",
+    "localidad": "VILLA CORINA",
+    "lat": -34.70327314,
+    "lng": -58.34413007,
+    "modalidad": "Psicología Comunitaria y Pedagogía Social",
+    "niveles": [
+      "Psicología Comunitaria y Pedagogía Social (C.E.C)"
+    ]
+  },
+  {
+    "nombre": "ESCUELA SECUNDARIA TÉCNICA DE LA UNDAV",
+    "direccion": "RAMÓN FRANCO 6475",
+    "localidad": "WILDE",
+    "lat": -34.70032112,
+    "lng": -58.30715123,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACIÓN TÉCNICA Y PROFESORADO \"INSTITUTO MUNICIPAL DE TEATRO\"",
+    "direccion": "ALSINA 157",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66372206,
+    "lng": -58.36594834,
+    "modalidad": "Educación Artística",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN PROFESIONAL Nº412",
+    "direccion": "AZCUÉNAGA 26",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66258292,
+    "lng": -58.37559354,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  },
+  {
+    "nombre": "INSTITUTO SUPERIOR DE FORMACIÓN TÉCNICA Nº6012 - EXTENSIÓN IV",
+    "direccion": "BELGRANO 851",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66634392,
+    "lng": -58.36539825,
+    "modalidad": "Educación Técnico Profesional",
+    "niveles": [
+      "Nivel Superior"
+    ]
+  },
+  {
+    "nombre": "JARDÍN DE INFANTES DE CARÁCTER COMUNITARIO N°1",
+    "direccion": "BARADERO 4076",
+    "localidad": "SARANDI",
+    "lat": -34.68403446,
+    "lng": -58.33510706,
+    "modalidad": "Educación Común",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "ESCUELA SECUNDARIA DE JÓVENES Y ADULTOS DE LA UNIVERSIDAD NACIONAL DE AVELLANEDA",
+    "direccion": "ESPAÑA 350",
+    "localidad": "AVELLANEDA",
+    "lat": -34.66291022,
+    "lng": -58.37217996,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario"
+    ]
+  },
+  {
+    "nombre": "CENTROEDUCATIVO DE NIVEL SECUNDARIO N°458",
+    "direccion": "VILLEGAS 6106",
+    "localidad": "WILDE",
+    "lat": -34.7086775,
+    "lng": -58.32520007,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Nivel Secundario",
+      "Plan Fines (Trayectos y Deudores)"
+    ]
+  },
+  {
+    "nombre": "ESCUELA DE EDUCACIÓN TEMPRANA Nº 1",
+    "direccion": "LUIS MARÍA CAMPOS 2974",
+    "localidad": "SARANDI",
+    "lat": -34.68116384,
+    "lng": -58.34661173,
+    "modalidad": "Educación Especial",
+    "niveles": [
+      "Nivel Inicial"
+    ]
+  },
+  {
+    "nombre": "CENTRO DE FORMACIÓN LABORAL Nº413",
+    "direccion": "GIRIBONE 789",
+    "localidad": "PIÑEYRO",
+    "lat": -34.66440445,
+    "lng": -58.38097092,
+    "modalidad": "Educación de Jóvenes y Adultos",
+    "niveles": [
+      "Formación Profesional"
+    ]
+  }
+]
