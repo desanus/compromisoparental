@@ -54,7 +54,7 @@ function plantillaHtml(nombre: string, materiales: MaterialMail[]): string {
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;background:#ffffff;border-radius:16px;overflow:hidden;">
       <tr>
         <td style="background:linear-gradient(135deg,#000020 0%,#171a4a 50%,#2f2c79 100%);padding:28px 32px;">
-          <div style="color:#f5e1ce;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Compromiso Parental</div>
+          <div style="color:#f5e1ce;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Compromiso Parental Avellaneda</div>
           <div style="color:#ffffff;font-size:22px;font-weight:bold;margin-top:6px;">¡Gracias por sumarte, ${nombre}! 🤝</div>
         </td>
       </tr>
@@ -72,7 +72,7 @@ function plantillaHtml(nombre: string, materiales: MaterialMail[]): string {
       </tr>
       <tr>
         <td style="background:#f5e1ce;padding:18px 32px;text-align:center;color:#2f2c79;font-size:12px;">
-          Compromiso Parental · Crianza sin pantallas
+          Compromiso Parental Avellaneda · Infancia sin pantallas
         </td>
       </tr>
     </table>
@@ -102,7 +102,7 @@ export async function enviarMaterialesPorMail(
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: destino,
-      subject: "Tus materiales del Compromiso Parental 📚",
+      subject: "Tus materiales del Compromiso Parental Avellaneda 📚",
       html: plantillaHtml(nombre, materiales),
     });
     return true;
