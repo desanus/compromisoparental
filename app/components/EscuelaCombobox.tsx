@@ -23,7 +23,18 @@ export default function EscuelaCombobox({ value, onChange, inputClass, inputStyl
   const [open, setOpen] = useState(false);
   const [highlight, setHighlight] = useState(0);
   const [libre, setLibre] = useState(false);
+  const [dropUp, setDropUp] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
+
+  // decidir si la lista se abre hacia arriba (poco espacio abajo, ej. último campo del modal)
+  const decidirDireccion = () => {
+    const r = wrapRef.current?.getBoundingClientRect();
+    if (!r) return;
+    const espacioAbajo = window.innerHeight - r.bottom;
+    setDropUp(espacioAbajo < 240 && r.top > espacioAbajo);
+  };
+
+  const abrir = () => { decidirDireccion(); setOpen(true); };
 
   const resultados = useMemo(() => {
     const q = norm(input.trim());
@@ -81,12 +92,12 @@ export default function EscuelaCombobox({ value, onChange, inputClass, inputStyl
         onChange={(e) => {
           setInput(e.target.value);
           onChange("");
-          setOpen(true);
+          abrir();
           setHighlight(0);
         }}
-        onFocus={() => setOpen(true)}
+        onFocus={abrir}
         onKeyDown={(e) => {
-          if (e.key === "ArrowDown") { e.preventDefault(); setOpen(true); setHighlight((h) => Math.min(h + 1, resultados.length - 1)); }
+          if (e.key === "ArrowDown") { e.preventDefault(); abrir(); setHighlight((h) => Math.min(h + 1, resultados.length - 1)); }
           else if (e.key === "ArrowUp") { e.preventDefault(); setHighlight((h) => Math.max(h - 1, 0)); }
           else if (e.key === "Enter" && open && resultados[highlight]) { e.preventDefault(); seleccionar(resultados[highlight].nombre); }
           else if (e.key === "Escape") setOpen(false);
@@ -108,7 +119,7 @@ export default function EscuelaCombobox({ value, onChange, inputClass, inputStyl
         <div
           id="escuela-listbox"
           role="listbox"
-          className="absolute z-10 left-0 right-0 mt-1 max-h-56 overflow-y-auto rounded-lg border bg-white shadow-lg"
+          className={`absolute z-20 left-0 right-0 max-h-56 overflow-y-auto rounded-lg border bg-white shadow-lg ${dropUp ? "bottom-full mb-1" : "top-full mt-1"}`}
           style={{ borderColor: "#e8c39e" }}
         >
           {resultados.length > 0 ? (
