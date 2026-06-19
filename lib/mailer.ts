@@ -1,11 +1,21 @@
 import nodemailer from "nodemailer";
 
-export interface MaterialMail {
-  titulo: string;
-  descripcion: string;
-  icon: string;
-  url: string;
-}
+// URL base del sitio (para armar los links de descarga). Configurable por env.
+const BASE = (process.env.SITE_URL || "https://compromisoparentalavellaneda.com.ar").replace(/\/$/, "");
+
+// Materiales que se enlazan en el email. Los PDF viven en public/materiales/ del sitio.
+const MATERIALES = [
+  {
+    descripcion:
+      "Guía para acompañar a niños y adolescentes en su relación con la tecnología. Herramientas prácticas, información y mecanismos de control parental.",
+    url: `${BASE}/materiales/Guia-acompanamiento-tecnologia.pdf`,
+  },
+  {
+    descripcion:
+      "Información sobre la Ley Provincial n° 15.534 que regula el uso de celulares en escuelas primarias.",
+    url: `${BASE}/materiales/Ley-15534-celulares-escuelas.pdf`,
+  },
+];
 
 // Transporter SMTP (Hostinger). Singleton reutilizable entre invocaciones.
 const globalForMail = globalThis as unknown as { mailer?: nodemailer.Transporter };
@@ -28,26 +38,15 @@ function getTransporter(): nodemailer.Transporter | null {
   return globalForMail.mailer;
 }
 
-function plantillaHtml(nombre: string, materiales: MaterialMail[]): string {
-  const filas = materiales
-    .map(
-      (m) => `
-      <tr>
-        <td style="padding:14px 0;border-bottom:1px solid #f5e1ce;">
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td style="font-size:22px;width:40px;vertical-align:top;">${m.icon || "📄"}</td>
-              <td style="vertical-align:top;">
-                <div style="font-weight:bold;color:#000020;font-size:15px;">${m.titulo}</div>
-                <div style="color:#171a4a;font-size:13px;margin:2px 0 6px;">${m.descripcion}</div>
-                <a href="${m.url}" style="color:#2f2c79;font-weight:bold;font-size:13px;text-decoration:none;">Descargar →</a>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>`
-    )
-    .join("");
+function plantillaHtml(nombre: string): string {
+  const p = "margin:0 0 16px;color:#171a4a;font-size:15px;line-height:1.6;";
+  const items = MATERIALES.map(
+    (m) => `
+      <li style="margin-bottom:12px;">
+        ${m.descripcion}<br>
+        <a href="${m.url}" style="display:inline-block;margin-top:4px;color:#2f2c79;font-weight:bold;text-decoration:none;">Descargar →</a>
+      </li>`
+  ).join("");
 
   return `
   <div style="background:#f5e1ce;padding:32px 12px;font-family:Arial,Helvetica,sans-serif;">
@@ -55,46 +54,58 @@ function plantillaHtml(nombre: string, materiales: MaterialMail[]): string {
       <tr>
         <td style="background:linear-gradient(135deg,#000020 0%,#171a4a 50%,#2f2c79 100%);padding:28px 32px;">
           <div style="color:#f5e1ce;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Compromiso Parental Avellaneda</div>
-          <div style="color:#ffffff;font-size:22px;font-weight:bold;margin-top:6px;">¡Gracias por sumarte, ${nombre}! 🤝</div>
+          <div style="color:#ffffff;font-size:22px;font-weight:bold;margin-top:6px;">Infancia sin pantallas 🤝</div>
         </td>
       </tr>
       <tr>
         <td style="padding:28px 32px;">
-          <p style="color:#171a4a;font-size:15px;line-height:1.5;margin:0 0 18px;">
-            Te sumaste al compromiso de acompañar a niños, niñas y adolescentes en su relación con la tecnología.
-            Como te prometimos, acá tenés todos los materiales para descargar de forma gratuita:
-          </p>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">${filas}</table>
-          <p style="color:#171a4a;font-size:13px;line-height:1.5;margin:24px 0 0;">
-            Compartí este compromiso con otras familias para promover la acción conjunta.
-          </p>
+          <p style="${p}">Hola, <strong>${nombre}</strong>.</p>
+          <p style="${p}">Gracias por sumarte al compromiso parental por una infancia sin pantallas en Avellaneda.</p>
+          <p style="${p}">Te compartimos los siguientes materiales para descargar:</p>
+          <ul style="margin:0 0 16px;padding-left:18px;color:#171a4a;font-size:15px;line-height:1.6;">${items}</ul>
+          <p style="${p}">El acompañamiento cotidiano, el diálogo y la construcción de confianza son las herramientas más importantes para promover un uso seguro, saludable y responsable de las tecnologías.</p>
+          <p style="${p}">Organizarnos entre las familias es la forma más efectiva de cuidar a nuestros hijos.</p>
+          <p style="${p}">Quedamos en contacto a través de este medio por cualquier consulta.</p>
         </td>
       </tr>
       <tr>
-        <td style="background:#f5e1ce;padding:18px 32px;text-align:center;color:#2f2c79;font-size:12px;">
-          Compromiso Parental Avellaneda · Infancia sin pantallas
+        <td style="background:#f5e1ce;padding:18px 32px;text-align:center;color:#2f2c79;font-size:13px;line-height:1.5;">
+          <strong>Compromiso Parental</strong><br>Infancia sin pantallas en Avellaneda
         </td>
       </tr>
     </table>
   </div>`;
 }
 
+// Versión en texto plano (fallback para clientes sin HTML).
+function plantillaTexto(nombre: string): string {
+  const items = MATERIALES.map((m) => `- ${m.descripcion}\n  Descargar: ${m.url}`).join("\n\n");
+  return `Hola, ${nombre}.
+
+Gracias por sumarte al compromiso parental por una infancia sin pantallas en Avellaneda.
+
+Te compartimos los siguientes materiales para descargar:
+
+${items}
+
+El acompañamiento cotidiano, el diálogo y la construcción de confianza son las herramientas más importantes para promover un uso seguro, saludable y responsable de las tecnologías.
+
+Organizarnos entre las familias es la forma más efectiva de cuidar a nuestros hijos.
+
+Quedamos en contacto a través de este medio por cualquier consulta.
+
+Compromiso Parental
+Infancia sin pantallas en Avellaneda`;
+}
+
 /**
- * Envía el email de bienvenida con los links de los materiales.
+ * Envía el email de bienvenida con los links a los materiales.
  * No lanza: si falla o no hay credenciales, devuelve false y loguea.
  */
-export async function enviarMaterialesPorMail(
-  nombre: string,
-  destino: string,
-  materiales: MaterialMail[]
-): Promise<boolean> {
+export async function enviarMaterialesPorMail(nombre: string, destino: string): Promise<boolean> {
   const transporter = getTransporter();
   if (!transporter) {
     console.warn("[mailer] SMTP no configurado — no se envía el email de materiales.");
-    return false;
-  }
-  if (materiales.length === 0) {
-    console.warn("[mailer] No hay materiales con link para enviar.");
     return false;
   }
 
@@ -102,8 +113,9 @@ export async function enviarMaterialesPorMail(
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: destino,
-      subject: "Tus materiales del Compromiso Parental Avellaneda 📚",
-      html: plantillaHtml(nombre, materiales),
+      subject: "Gracias por sumarte · Compromiso Parental Avellaneda 📚",
+      text: plantillaTexto(nombre),
+      html: plantillaHtml(nombre),
     });
     return true;
   } catch (e) {

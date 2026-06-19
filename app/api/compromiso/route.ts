@@ -23,13 +23,8 @@ export async function POST(req: NextRequest) {
     await prisma.compromiso.create({ data: { nombre, apellido, telefono, mail, localidad, colegio } });
     const count = await prisma.compromiso.count();
 
-    // Enviar materiales por email (no bloqueante: si falla, la inscripción ya quedó guardada)
-    const materiales = await prisma.material.findMany({
-      where: { url: { not: "" } },
-      orderBy: { orden: "asc" },
-      select: { titulo: true, descripcion: true, icon: true, url: true },
-    });
-    enviarMaterialesPorMail(nombre, mail, materiales).catch((e) =>
+    // Enviar email con los materiales adjuntos (no bloqueante: si falla, la inscripción ya quedó guardada)
+    enviarMaterialesPorMail(nombre, mail).catch((e) =>
       console.error("[compromiso] fallo el envío de materiales:", e)
     );
 
