@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function AdminLogin() {
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -17,7 +18,7 @@ export default function AdminLogin() {
       const res = await fetch("/api/admin/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ username, password }),
       });
       if (!res.ok) {
         const d = await res.json();
@@ -46,6 +47,22 @@ export default function AdminLogin() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-xs font-semibold mb-1.5 uppercase tracking-wide" style={{ color: "#171a4a" }}>
+              Usuario
+            </label>
+            <input
+              type="text"
+              value={username}
+              onChange={e => setUsername(e.target.value)}
+              required
+              autoFocus
+              autoComplete="username"
+              className="w-full border rounded-xl px-3 py-2.5 text-sm outline-none focus:ring-2"
+              style={{ borderColor: "#e8c39e", backgroundColor: "#fffdf9" }}
+              placeholder="usuario"
+            />
+          </div>
+          <div>
+            <label className="block text-xs font-semibold mb-1.5 uppercase tracking-wide" style={{ color: "#171a4a" }}>
               Contraseña
             </label>
             <input
@@ -53,7 +70,7 @@ export default function AdminLogin() {
               value={password}
               onChange={e => setPassword(e.target.value)}
               required
-              autoFocus
+              autoComplete="current-password"
               className="w-full border rounded-xl px-3 py-2.5 text-sm outline-none focus:ring-2"
               style={{ borderColor: "#e8c39e", backgroundColor: "#fffdf9" }}
               placeholder="••••••••"
@@ -71,10 +88,6 @@ export default function AdminLogin() {
             {loading ? "Ingresando…" : "Ingresar"}
           </button>
         </form>
-
-        <p className="text-center text-xs mt-6 font-medium" style={{ color: "#e8c39e" }}>
-          Contraseña por defecto: <span className="font-black" style={{ color: "#2f2c79" }}>admin123</span>
-        </p>
       </div>
     </div>
   );

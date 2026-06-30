@@ -1,10 +1,9 @@
 const SECRET = process.env.ADMIN_SECRET || "dev-secret-change-in-production";
-const PASSWORD = process.env.ADMIN_PASSWORD || "admin123";
 export const COOKIE_NAME = "admin_session";
 
-export function checkPassword(input: string): boolean {
-  return input === PASSWORD;
-}
+// Usernames are restricted to this charset so they can travel in the token
+// (which is dot-separated) without ambiguity. Validate before creating users.
+export const USERNAME_RE = /^[a-zA-Z0-9_-]{3,30}$/;
 
 async function hmac(message: string): Promise<string> {
   const enc = new TextEncoder();
@@ -19,18 +18,21 @@ async function hmac(message: string): Promise<string> {
   return Array.from(new Uint8Array(sig)).map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
-export async function createToken(): Promise<string> {
+export async function createToken(username: string): Promise<string> {
   const ts = Date.now().toString();
-  const sig = await hmac(ts);
-  return `${ts}.${sig}`;
+  const payload = `${username}.${ts}`;
+  const sig = await hmac(payload);
+  return `${payload}.${sig}`;
 }
 
-export async function verifyToken(token: string): Promise<boolean> {
+/** Returns the username carried by a valid token, or null if invalid/expired. */
+export async function verifyToken(token: string): Promise<string | null> {
   const parts = token.split(".");
-  if (parts.length !== 2) return false;
-  const [ts, sig] = parts;
-  const expected = await hmac(ts);
-  if (sig !== expected) return false;
+  if (parts.length !== 3) return null;
+  const [username, ts, sig] = parts;
+  const expected = await hmac(`${username}.${ts}`);
+  if (sig !== expected) return null;
   const age = Date.now() - parseInt(ts);
-  return age < 24 * 60 * 60 * 1000;
+  if (age >= 24 * 60 * 60 * 1000) return null;
+  return username;
 }

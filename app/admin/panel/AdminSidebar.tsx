@@ -9,6 +9,7 @@ const navItems = [
   { href: "/admin/panel/videos", label: "Videos", icon: "🎥" },
   { href: "/admin/panel/noticias", label: "Noticias", icon: "📰" },
   { href: "/admin/panel/materiales", label: "Materiales", icon: "📁" },
+  { href: "/admin/panel/usuarios", label: "Usuarios", icon: "👥" },
   { href: "/admin/panel/config", label: "Configuración", icon: "⚙️" },
 ];
 
