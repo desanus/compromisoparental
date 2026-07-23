@@ -148,7 +148,7 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                   </div>
                   <div>
                     <label className={labelClass} style={{ color: "#171a4a" }}>
-                      Colegio <span className="normal-case font-normal" style={{ color: "#e8c39e" }}>(opcional)</span>
+                      Colegio <span style={{ color: "#e8933e" }}>*</span> <span className="normal-case font-normal" style={{ color: "#e8c39e" }}>(opcional)</span>
                     </label>
                     <EscuelaCombobox
                       value={form.colegio}
@@ -158,6 +158,9 @@ export default function FormModal({ onClose, onSuccess }: FormModalProps) {
                     />
                   </div>
                 </div>
+                <p className="text-xs font-normal normal-case leading-snug" style={{ color: "#6b6f8a" }}>
+                  <span style={{ color: "#e8933e" }}>*</span> Te preguntamos la escuela a la que asisten los chicos para conectar a las familias de una misma comunidad educativa y fortalecer este compromiso.
+                </p>
               </form>
             </div>
 
